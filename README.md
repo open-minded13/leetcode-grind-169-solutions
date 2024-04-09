@@ -69,7 +69,6 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [ ] [Easy 572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/description/)
 - [ ] [Easy 977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/description/)
 - [x] [Medium 3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) (picked in Blind 75) | Algo: Sliding Window Technique
-
 - [x] [Medium 53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) (picked in Blind 75) | Algo: Kadane's Algo
 - [x] [Medium 57. Insert Interval](https://leetcode.com/problems/insert-interval/) (picked in Blind 75)
 - [x] [Medium 542. 01 Matrix](https://leetcode.com/problems/01-matrix/) | Algo: Multi-Source Breadth-First Search
@@ -130,6 +129,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [ ] [Medium 739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)
 
 ## Part 8
+
 - [ ] [Medium 19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)
 - [ ] [Medium 49. Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)
 - [ ] [Medium 152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/)
