@@ -2,6 +2,8 @@
 
 This guide provides an overview of common Bash commands, their purposes, usages, examples, and practice questions with answers. It's designed to help beginners understand and practice basic file manipulation and command line operations in Unix-like operating systems.
 
+Date of Last Practice: Apr 9, 2024
+
 ## Table of Contents
 
 - [Bash Commands Usage Guide](#bash-commands-usage-guide)
