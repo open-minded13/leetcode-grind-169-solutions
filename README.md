@@ -1,15 +1,23 @@
-# LeetCode 75 Grind Questions Challenge + Additional Exercises
+# LeetCode 75 Grind Questions Challenge
 
 [**Grind 75**](https://www.techinterviewhandbook.org/grind75) is a dynamic list of top LeetCode interview questions created in 2023. It's up-to-date and well-chosen. We can personalize it according to our schedule, time constraints, and preferences.
 
 [**Blind 75**](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU), on the other hand, is a curated list of LeetCode questions created in 2018. We can practice these questions to save time in the job-finding process. Many other LeetCode problems are technical mixes of these individual problems. I practice Blind 75 in parallel on this [**repository**](https://github.com/open-minded13/2023_LeetCode_Blind_75_Questions_Challenge).
 
-Goal: To achieve the review of the application of the following data structures and algorithms.
+To achieve the review of the application of the following data structures and algorithms, except the theory of NP-Completeness.
 
 - Data Structures: (1) Arrays; (2) Stacks and Queues; (3) Linked Lists; (4) Trees; (5) Graphs; (6) Sorting; (7) Hashing.
-- Algorithms: (1) Greedy Method; (2) Divide and Conquer; (3) Tree Searching Strategies; (4) Prune and Search; (5) Dynamic Programming; (6) The Theory of NP-Completeness.
+- Algorithms: (1) Greedy Method; (2) Divide and Conquer; (3) Tree Searching Strategies; (4) Prune and Search; (5) Dynamic Programming.
 
-Current Progress: 73/75.
+## Comprehensive Solutions & Analysis
+
+In this repository, you'll find each question meticulously solved with a focus on clarity and efficiency. To ensure you can verify and understand the solutions:
+
+- Organized Folders: Solutions are neatly organized into folders, labeled from Part 1 to Part 8, for easy navigation.
+- Test Cases: Each solution is accompanied by test cases that validate the code and demonstrate its correctness.
+- Complexity Analysis: Time and space complexities are provided for each solution, giving you insights into the efficiency of the algorithms used.
+
+Feel free to delve into the solutions, run the test cases, and review the complexity analysis to deepen your understanding of each problem. This hands-on approach is designed to help you become proficient in coding interviews, where such analyses are crucial.
 
 ## Part 1
 
