@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "vector": "cpp",
+        "iostream": "cpp",
+        "limits": "cpp",
+        "chrono": "cpp",
+        "algorithm": "cpp",
+        "system_error": "cpp",
+        "iosfwd": "cpp",
+        "functional": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp"
+    }
+}
