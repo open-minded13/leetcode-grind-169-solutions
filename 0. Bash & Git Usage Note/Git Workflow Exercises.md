@@ -105,7 +105,7 @@ This exercise is designed to give hands-on experience with various Git commands 
     git merge feature-login # After executing this command you should see merge conflicts.
     ```
 
-### 4. How to Merge When Facing Conflicts
+### How to Merge When Facing Conflicts
 
 - **Explanation**: When Git can't automatically resolve differences in code between commits, it stops the merge and asks you to resolve the conflicts manually.
   - Open the conflicting file and you will see sections marked with `<<<<<<<`, `=======`, and `>>>>>>>`. These markers define the conflicting sections between the two branches.
@@ -124,7 +124,7 @@ This exercise is designed to give hands-on experience with various Git commands 
   git push -u origin main
   ```
 
-## Reviewing Changes and Finalizing
+## 4. Reviewing Changes and Finalizing
 
 ### Review and Merge the Feature
 
