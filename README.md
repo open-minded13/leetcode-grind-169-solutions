@@ -13,9 +13,9 @@ To achieve the review of the application of the following data structures and al
 
 In this repository, you'll find each question meticulously solved with a focus on clarity and efficiency. To ensure you can verify and understand the solutions:
 
-- Organized Folders: Solutions are neatly organized into folders, labeled from Part 1 to Part 8, for easy navigation.
-- Test Cases: Each solution is accompanied by test cases that validate the code and demonstrate its correctness.
-- Complexity Analysis: Time and space complexities are provided for each solution, giving you insights into the efficiency of the algorithms used.
+- **Organized Folders**: Solutions are neatly organized into folders, labeled from Part 1 to Part 8, for easy navigation.
+- **Test Cases**: Each solution is accompanied by test cases that validate the code and demonstrate its correctness.
+- **Complexity Analysis**: Time and space complexities are provided for each solution, giving you insights into the efficiency of the algorithms used.
 
 Feel free to delve into the solutions, run the test cases, and review the complexity analysis to deepen your understanding of each problem. This hands-on approach is designed to help you become proficient in coding interviews, where such analyses are crucial.
 
