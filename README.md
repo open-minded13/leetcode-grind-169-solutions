@@ -147,11 +147,11 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [x] [Hard 42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Algo: Two-Pointer Technique
 - [x] [Hard 76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) (picked in Blind 75) | Algo: Sliding Window; DS: Hash Table
 - [x] ⭐️ [Hard 84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | DS: Stack
-- [x] [Hard 127. Word Ladder](https://leetcode.com/problems/word-ladder/) | Algo: Breadth-First Search; DS: Queue, Hash Table
+- [x] ⭐️ [Hard 127. Word Ladder](https://leetcode.com/problems/word-ladder/) | Algo: Breadth-First Search; DS: Queue, Hash Table
 - [x] [Hard 224. Basic Calculator](https://leetcode.com/problems/basic-calculator/)
-- [x] [Hard 295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) (picked in Blind 75) | DS: Min & Max Heaps (Priority Queue)
+- [x] ⭐️ [Hard 295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) (picked in Blind 75) | DS: Min & Max Heaps (Priority Queue)
 - [x] [Hard 297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) (picked in Blind 75) | Algo: Breadth-First Search; DS: Queue
-- [x] [Hard 1235. Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) | Algo: Binary Search, Dynamic Programming
+- [x] ⭐️ [Hard 1235. Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) | Algo: Binary Search, Dynamic Programming
 
 ## Additional Exercises
 
