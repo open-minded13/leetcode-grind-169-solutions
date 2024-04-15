@@ -141,19 +141,104 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [ ] [Medium 692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)
 - [ ] [Medium 1730. Shortest Path to Get Food](https://leetcode.com/problems/shortest-path-to-get-food/description/)
 
+## Part 9
+
+- [ ] [Medium 24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/)
+- [ ] [Medium 113. Path Sum II](https://leetcode.com/problems/path-sum-ii/description/)
+- [ ] [Medium 128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)
+- [ ] [Medium 189. Rotate Array](https://leetcode.com/problems/rotate-array/description/)
+- [ ] [Medium 210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/description/)
+- [ ] [Medium 328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/description/)
+- [ ] [Medium 394. Decode String](https://leetcode.com/problems/decode-string/description/)
+- [ ] [Medium 424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/description/)
+- [ ] [Medium 525. Contiguous Array](https://leetcode.com/problems/contiguous-array/description/)
+- [ ] [Medium 658. Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)
+- [ ] [Medium 662. Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/description/)
+
+## Part 10
+
+- [ ] [Medium 2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)
+- [ ] [Medium 22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)
+- [ ] [Medium 55. Jump Game](https://leetcode.com/problems/jump-game/description/)
+- [ ] [Medium 148. Sort List](https://leetcode.com/problems/sort-list/description/)
+- [ ] [Medium 285. Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/description/)
+- [ ] [Medium 323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/description/)
+- [x] ⭐️ [Medium 528. Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/description/) | Algo: Binary Search; DS: Prefix Sum Array
+- [ ] [Medium 560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/)
+- [ ] [Medium 735. Asteroid Collision](https://leetcode.com/problems/asteroid-collision/description/)
+- [ ] [Medium 1197. Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/description/)
+
+## Part 11
+
+- [ ] [Medium 48. Rotate Image](https://leetcode.com/problems/rotate-image/description/)
+- [x] [Medium 50. Pow(x, n)](https://leetcode.com/problems/powx-n/description/) | Algo: Exponentiation by Squaring
+- [ ] [Medium 74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/)
+- [ ] [Medium 91. Decode Ways](https://leetcode.com/problems/decode-ways/description/)
+- [ ] [Medium 103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/)
+- [ ] [Medium 179. Largest Number](https://leetcode.com/problems/largest-number/description/)
+- [x] [Medium 215. Kth Largest Element in an Array](https://leetcode.com/problems/buildings-with-an-ocean-view/description/) | Algo: Quickselect (Fastest in Average Cases), DS: Heap (Good in All Cases)
+- [ ] [Medium 221. Maximal Square](https://leetcode.com/problems/maximal-square/description/)
+- [ ] [Medium 253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/description/)
+- [ ] [Medium 362. Design Hit Counter](https://leetcode.com/problems/design-hit-counter/description/)
+- [ ] [Medium 437. Path Sum III](https://leetcode.com/problems/path-sum-iii/description/)
+
+## Part 12
+
+- [ ] [Medium 7. Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)
+- [ ] [Medium 16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/description/)
+- [ ] [Medium 61. Rotate List](https://leetcode.com/problems/rotate-list/description/)
+- [ ] [Medium 73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/)
+- [ ] [Medium 143. Reorder List](https://leetcode.com/problems/reorder-list/description/)
+- [ ] [Medium 153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)
+- [x] ⭐️ [Medium 227. Basic Calculator](https://leetcode.com/problems/basic-calculator-ii/description/) | DS: Stack
+- [ ] [Medium 271. Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/description/)
+- [ ] [Medium 787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/description/)
+- [ ] [Medium 863. All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/description/)
+
 ## Part 13
 
-- [x] [Hard 23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) (picked in Blind 75) | DS: Min Heap (Priority Queue)
+- [ ] [Medium 377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/description/)
+- [ ] [Medium 380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)
+- [ ] [Medium 435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/)
 - [x] [Hard 42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Algo: Two-Pointer Technique
 - [x] [Hard 76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) (picked in Blind 75) | Algo: Sliding Window; DS: Hash Table
-- [x] ⭐️ [Hard 84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | DS: Stack
 - [x] ⭐️ [Hard 127. Word Ladder](https://leetcode.com/problems/word-ladder/) | Algo: Breadth-First Search; DS: Queue, Hash Table
 - [x] [Hard 224. Basic Calculator](https://leetcode.com/problems/basic-calculator/)
 - [x] ⭐️ [Hard 295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) (picked in Blind 75) | DS: Min & Max Heaps (Priority Queue)
 - [x] [Hard 297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) (picked in Blind 75) | Algo: Breadth-First Search; DS: Queue
+
+## Part 14
+
+- [ ] [Hard 4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)
+- [x] [Hard 23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) (picked in Blind 75) | DS: Min Heap (Priority Queue)
+- [ ] [Hard 32. Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/description/)
+- [x] ⭐️ [Hard 84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | DS: Stack
+- [ ] [Hard 124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)
+- [ ] [Hard 329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/)
+- [ ] [Hard 895. Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/description/)
 - [x] ⭐️ [Hard 1235. Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) | Algo: Binary Search, Dynamic Programming
 
+## Part 15
+
+- [ ] [Hard 212. Word Search II](https://leetcode.com/problems/word-search-ii/description/)
+- [ ] [Hard 239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/description/)
+- [ ] [Hard 269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/description/)
+- [ ] [Hard 336. Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/description/)
+- [ ] [Hard 588. Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/description/)
+- [ ] [Hard 759. Employee Free Time](https://leetcode.com/problems/employee-free-time/description/)
+- [ ] [Hard 815. Bus Routes](https://leetcode.com/problems/bus-routes/description/)
+
+## Part 16
+
+- [ ] [Hard 25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/)
+- [ ] [Hard 37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/description/)
+- [ ] [Hard 41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)
+- [ ] [Hard 51. N-Queens](https://leetcode.com/problems/n-queens/description/)
+- [ ] [Hard 632. Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/description/)
+
 ## Additional Exercises
+
+### Meta
 
 - [x] [Easy 346. Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)
 - [x] [Easy 408. Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/description/)
@@ -163,12 +248,9 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [x] ⭐️ [Medium 71. Simplify Path](https://leetcode.com/problems/simplify-path/description/)
 - [x] [Medium 129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
 - [x] [Medium 138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/) | DS: Linked List
-- [x] [Medium 215. Kth Largest Element in an Array](https://leetcode.com/problems/buildings-with-an-ocean-view/description/) | Algo: Quickselect (Fastest in Average Cases), DS: Heap (Good in All Cases)
-- [x] ⭐️ [Medium 227. Basic Calculator](https://leetcode.com/problems/basic-calculator-ii/description/) | DS: Stack
 - [x] [Medium 314. Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/) | Algo: Breadth-First Search (BFS), DS: Queue
 - [x] [Medium 339. Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum/description/)
 - [x] [Medium 426. Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/description/)
-- [x] ⭐️ [Medium 528. Random Pick with Weight.py](https://leetcode.com/problems/random-pick-with-weight/description/) | Algo: Binary Search; DS: Prefix Sum Array
 - [x] [Medium 708. Insert into a Sorted Circular Linked List](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/)
 - [x] [Medium 763. Partition Labels](https://leetcode.com/problems/partition-labels/) | Algo: Two-Pointer Technique, Dynamic Sliding Window, Greedy Method
 - [x] [Medium 791. Custom Sort String](https://leetcode.com/problems/custom-sort-string/description/)
