@@ -238,7 +238,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 
 ## Additional Exercises
 
-### Meta
+### Meta (Facebook)
 
 - [x] [Easy 346. Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)
 - [x] [Easy 408. Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/description/)
