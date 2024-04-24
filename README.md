@@ -7,7 +7,7 @@
 To achieve the review of the application of the following data structures and algorithms, except the theory of NP-Completeness.
 
 - Data Structures: (1) Arrays; (2) Stacks and Queues; (3) Linked Lists; (4) Trees; (5) Graphs; (6) Sorting; (7) Hashing.
-- Algorithms: (1) Greedy Method; (2) Divide and Conquer; (3) Tree Searching Strategies; (4) Prune and Search; (5) Dynamic Programming..
+- Algorithms: (1) Greedy Method; (2) Divide and Conquer; (3) Tree Searching Strategies; (4) Prune and Search; (5) Dynamic Programming.
 
 ## Comprehensive Solutions & Analysis
 
