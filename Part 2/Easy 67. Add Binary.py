@@ -1,6 +1,7 @@
 # Date of Last Practice: Oct 26, 2023 -> Feb 2, 2024
 #
 # Time Complexity: O(N), where N is the maximum length of the input strings (a and b).
+#
 # Space Complexity: O(N) because the result string grows
 #                   in proportion to the maximum length of the input strings (a and b).
 

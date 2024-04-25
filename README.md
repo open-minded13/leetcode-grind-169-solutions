@@ -41,7 +41,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 
 ## Part 2
 
-- [ ] [Easy 13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/)
+- [x] [Easy 13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/)
 - [ ] [Easy 14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)
 - [x] [Easy 67. Add Binary](https://leetcode.com/problems/add-binary/)
 - [ ] [Easy 100. Same Tree](https://leetcode.com/problems/same-tree/description/)
