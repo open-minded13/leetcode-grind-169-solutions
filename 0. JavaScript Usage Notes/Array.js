@@ -21,7 +21,7 @@ console.log(`myArray = ${myArray}`);
 myArray.pop();  // Removes the last element
 console.log(`myArray = ${myArray}`);
 
-// Using splice to remove elements at a specific index
+// - Using splice to remove elements at a specific index
 myArray.splice(2, 1);  // Removes the element at index 2
 console.log(`myArray = ${myArray}`);
 
@@ -31,7 +31,7 @@ myArray.forEach((item, index) => {
     console.log(`myArray's item[${index}] = ${item}`);
 });
 
-// Using for...of loop
+// - Using for...of loop
 for (const item of myArray) {
     console.log(item);
 }
