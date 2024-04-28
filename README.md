@@ -256,6 +256,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [x] [Medium 791. Custom Sort String](https://leetcode.com/problems/custom-sort-string/description/)
 - [x] [Medium 841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/description/)
 - [x] [Medium 921. Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/)
+- [ ] [1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/description/)
 - [x] [Medium 1249. Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/description/) | DS: Stack
 - [x] [Medium 1570. Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/)
 - [x] [Medium 1650. Lowest Common Ancestor of a Binary Tree III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/) | Algo: Depth-First Search
