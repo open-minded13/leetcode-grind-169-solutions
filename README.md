@@ -117,7 +117,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 
 ## Part 7
 
-- [ ] [Medium 31. Next Permutation](https://leetcode.com/problems/next-permutation/description/)
+- [x] 🌱 [Medium 31. Next Permutation](https://leetcode.com/problems/next-permutation/description/)
 - [ ] [Medium 36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/)
 - [ ] [Medium 134. Gas Station](https://leetcode.com/problems/gas-station/description/)
 - [x] ⭐️ [Medium 146. LRU Cache](https://leetcode.com/problems/lru-cache/) | DS: Doubly Linked List
