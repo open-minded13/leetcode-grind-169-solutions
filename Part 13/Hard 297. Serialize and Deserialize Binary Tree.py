@@ -92,15 +92,16 @@ root1.right.left = TreeNode(4)
 root1.right.right = TreeNode(5)
 
 # Testing serialization and deserialization
-data = ser.serialize(root1)
-assert data == "1,2,3,null,null,4,5,null,null,null,null"
+serialized_data = ser.serialize(root1)
+assert serialized_data == "1,2,3,null,null,4,5,null,null,null,null"
 assert (
-    ser.serialize(deser.deserialize(data)) == "1,2,3,null,null,4,5,null,null,null,null"
+    ser.serialize(deser.deserialize(serialized_data))
+    == "1,2,3,null,null,4,5,null,null,null,null"
 )
 
 # Test empty tree
-data = ser.serialize(None)
-assert data == ""
-assert ser.serialize(deser.deserialize(data)) == ""
+serialized_data = ser.serialize(None)
+assert serialized_data == ""
+assert ser.serialize(deser.deserialize(serialized_data)) == ""
 
 print("All test cases passed!")
