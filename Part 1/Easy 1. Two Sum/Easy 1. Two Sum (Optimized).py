@@ -1,4 +1,4 @@
-# Date of Last Practice: June 11, 2023 -> Jan 21, 2024
+# Date of Last Practice: Jun 11, 2023 -> Jan 21, 2024
 #
 # Time complexity: O(N), where N is the length of nums.
 #                  Overall, the time complexity of this solution is O(n)
