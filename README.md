@@ -130,7 +130,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 
 ## Part 8
 
-- [ ] [Medium 19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)
+- [x] [Medium 19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)
 - [ ] [Medium 49. Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)
 - [ ] [Medium 152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/)
 - [ ] [Medium 211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/)
