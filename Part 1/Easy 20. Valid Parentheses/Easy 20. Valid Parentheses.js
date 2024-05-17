@@ -13,19 +13,19 @@ var isValid = function (s) {
         if (char === "(" || char === "{" || char === "[") {
             stack.push(char)
         }
-        else {
-            if (stack.length === 0) {
-                return false
-            }
-            else if ((char === ")" && "(" === stack[stack.length - 1]) ||
+        else if (char === ")" || char === "}" || char === "]") {
+            if (!stack.length) return false
+            if ((char === ")" && "(" === stack[stack.length - 1]) ||
                 (char === "}" && "{" === stack[stack.length - 1]) ||
                 (char === "]" && "[" === stack[stack.length - 1])) {
                 stack.pop()
             }
             else {
-                stack.push(char)
+                return false
             }
         }
     }
-    return stack.length === 0
+    return !stack.length
 };
+
+module.exports = isValid
