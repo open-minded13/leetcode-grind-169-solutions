@@ -24,6 +24,8 @@ var hasCycle = function (head) {
     return true;
 };
 
+module.exports = hasCycle
+
 // var hasCycle = function (head) {
 //     if (!head || !head.next || !head.next.next) {
 //         return false;

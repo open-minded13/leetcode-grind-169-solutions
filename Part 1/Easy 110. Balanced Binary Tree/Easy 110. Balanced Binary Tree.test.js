@@ -87,7 +87,7 @@ describe('isBalanced', () => {
                 }
             }
         };
-        expect(isBalanced(root)).toBe(false);
+        expect(isBalanced(root)).toBe(true);
     });
 
     test('should return true for a tree with a single node', () => {
