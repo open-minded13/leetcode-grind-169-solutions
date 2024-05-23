@@ -1,8 +1,8 @@
 # # Date of Last Practice: Jul 01, 2023 -> Jan 29, 2024
-#
+
 # Time Complexity: O(N), where N is the total number of nodes in the given tree.
 #                  This is because the solution recursively visits each node in the tree exactly once.
-#
+
 # Space Complexity: O(H), where H is the height of the tree. In the recursive calls,
 #                   the maximum depth of the call stack is equal to the height of the tree.
 #                   Therefore, the space complexity is determined by the maximum depth of the recursion,
