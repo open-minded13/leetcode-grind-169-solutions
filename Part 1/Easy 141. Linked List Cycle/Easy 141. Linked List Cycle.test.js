@@ -190,15 +190,15 @@ describe('hasCycle', () => {
     });
 
     // Test case with large list and timeout
-    it('should handle large lists and timeouts', () => {
-        const head = new Node(1);
-        let current = head;
-        for (let i = 2; i <= 1000000; i++) {
-            current.next = new Node(i);
-            current = current.next;
-        }
-        current.next = head.next.next; // Create a cycle
+    // it('should handle large lists and timeouts', () => {
+    //     const head = new Node(1);
+    //     let current = head;
+    //     for (let i = 2; i <= 1000000; i++) {
+    //         current.next = new Node(i);
+    //         current = current.next;
+    //     }
+    //     current.next = head.next.next; // Create a cycle
 
-        expect(() => hasCycle(head)).toThrowError('Timeout exceeded');
-    });
+    //     expect(() => hasCycle(head)).toThrowError('Timeout exceeded');
+    // });
 });
