@@ -1,10 +1,13 @@
 // Date of Last Practice: May 23, 2024
 
-// Time Complexity: O(N), where n is the length of the input strings s and t.
-//                  The solution iterates over both strings once to count the frequency of characters and
-//                  then checks if the character frequencies match.
-// Space Complexity: O(1) because the charCount object always has a fixed size of 26,
-//                   representing the lowercase English letters.
+// Time Complexity: O(n), where n is the length of the strings.
+//                  This is because we iterate through both strings once,
+//                  and map operations(insertions and lookups) are O(1) on average.
+
+// Space Complexity: O(1), assuming a fixed set of unique characters
+//                   (26 for lowercase letters or 128 for the full ASCII set). 
+//                   The space used by the charCount object is constant and 
+//                   does not depend on the input size.
 
 var isAnagram = function (s, t) {
     if (s == "" || t == "" || s == null || t == null || s.length != t.length) {
