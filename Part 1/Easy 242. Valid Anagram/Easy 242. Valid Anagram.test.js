@@ -1,7 +1,7 @@
 // Import the isAnagram function
 const isAnagram = require('./Easy 242. Valid Anagram');
 
-// Describe the test suite for the isAnagram function
+// . for the isAnagram function
 describe('isAnagram', () => {
     // Test case 1: Valid anagram with matching lengths
     it('should return true for valid anagrams with matching lengths', () => {

@@ -1,11 +1,11 @@
 # Date of Last Practice: Oct 29, 2023 -> Feb 2, 2024
 #
 # Time Complexity: O(log N), where N is the amount of all versions.
-#                            In each step of the binary search, we reduce the search space by half.
-#                            Therefore, it takes logarithmic time to find the first bad version.
+#                  In each step of the binary search, we reduce the search space by half.
+#                  Therefore, it takes logarithmic time to find the first bad version.
 #
-# Space Complexity: O(1). The solution uses a constant amount of space to store variables,
-#                         regardless of the input size. It does not use any data structures that depend on the input size.
+# Space Complexity: O(1), since we use a constant amount of space to store variables.
+#                   It does not use any data structures that depend on the input size.
 
 
 def isBadVersion(version):
