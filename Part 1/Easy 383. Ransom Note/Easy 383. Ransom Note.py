@@ -1,9 +1,9 @@
 from collections import Counter
 
 # Date of Last Practice: Oct 30, 2023 -> Feb 2, 2024
-#
+
 # Time Complexity: O(N+M), where N and M are the length of the ransomNote and magazine strings respectively.
-#
+
 # Space Complexity: O(N). In the worst case, as the letter_counter dictionary can store
 #                         at most all distinct letters from the magazine string.
 
