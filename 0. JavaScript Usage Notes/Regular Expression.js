@@ -49,7 +49,7 @@ pattern = /(\d{1,3}\.){3}\d{1,3}/;
 pattern = /\d{5}(-\d{4})?/;
 
 // Note: These comments provide an explanation of what each regular expression does.
-// You can modify and use them based on your specific text processing needs.
+//       You can modify and use them based on your specific text processing needs.
 
 const demoReFunctions = () => {
     let testString = "Example string 123 with different 456 patterns 789.";
