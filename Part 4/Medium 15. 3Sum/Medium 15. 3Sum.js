@@ -1,8 +1,15 @@
 // Date of Last Practice: May 30, 2024
 // 
-// Time Complexity: O(N^2). 
+// Time Complexity: O(N^2), where N is the length of the input array nums.
+//                  Sorting the Array: Sorting the array takes O(N * log N), 
+//                  where N is the length of the input array.
+//                  Iterating through the Array: The outer loop iterates through each element,
+//                  and the two - pointer technique inside the loop scans the remaining part of the array.
+//                  This takes O(N^2) in total because for each element, the two-pointer scan is O(N).
 // 
-// Space Complexity: O(N). 
+// Space Complexity: O(N), where N is the length of the input array nums.
+//                   The sorting step can be done in -place, so it uses O(1) additional space.
+//                   The result array can contain up to O(n) triplets in the worst case, each of size 3.
 
 var threeSum = function (nums) {
     // Step 1: Sort the array to make it easier to avoid duplicates and use two-pointer technique
@@ -46,3 +53,5 @@ var threeSum = function (nums) {
 
     return result
 };
+
+module.exports = threeSum
