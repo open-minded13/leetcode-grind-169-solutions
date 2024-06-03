@@ -1,4 +1,4 @@
-# Date of Last Practice: Mar 20, 2024
+# Date of Last Practice: Mar 20, 2024 -> June 3, 2024
 
 # Lambda Basics
 # A lambda function is a small anonymous function that can take any number of arguments, but can only have one expression.
@@ -61,3 +61,40 @@ print("Example 8: People sorted by age:", sorted_people)
 # Conclusion
 # Lambda functions provide a powerful, inline method for defining custom sorting, filtering, and transformation logic in Python.
 # They shine in their ability to concisely express complex operations across different types of data structures.
+
+
+# [Practice Makes You a Pro!]
+
+# Example 1: Simple addition
+
+# Working with Lists
+# Lambda functions are useful for operations like sorting, filtering, and transforming elements in lists.
+
+# Example 2: Sorting a list of numbers
+
+# Example 3: Sorting a list of strings by their last character
+
+# Working with Dictionaries
+# You can iterate over dictionaries by keys, values, or both (items), and lambda functions can be especially useful for these.
+
+# Example 4: Sorting dictionary keys by their corresponding values
+
+# Example 5: Finding the dictionary key with the minimum value
+
+# Example 6: Sorting dictionary items by value
+
+# Example 7: Finding the key-value pair with the maximum value
+
+
+# Custom Objects Example
+# Using lambda functions to sort or compare custom objects.
+class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def __repr__(self):
+        return f"{self.name}: {self.age}"
+
+
+# Example 8: Sorting a list of Cat objects by age
