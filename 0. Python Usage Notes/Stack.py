@@ -1,4 +1,4 @@
-# Date of Last Practice: Aug 31 2023 - Mar 21, 2024
+# Date of Last Practice: Aug 31, 2023 - Mar 21, 2024
 
 # In Python, you can use the built-in list data type as a stack directly,
 # without the need to create a separate Stack class.

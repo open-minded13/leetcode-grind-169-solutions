@@ -1,5 +1,4 @@
-# Date of Last Practice:
-#   July 1, 2023 -> Sep 5, 2023 -> Mar 20, 2024
+# Date of Last Practice: July 1, 2023 -> Sep 5, 2023 -> Mar 20, 2024
 
 
 # Create a Linked List
