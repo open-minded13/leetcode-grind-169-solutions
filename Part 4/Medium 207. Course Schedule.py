@@ -1,8 +1,7 @@
-import os
 from typing import List
 
 
-# Date of Last Practice: Dec 17, 2023 -> Feb 7, 2024
+# Date of Last Practice: Dec 17, 2023 -> Feb 7, 2024 -> June 6, 2024
 #
 # Time Complexity: O(V+E), where V is the number of courses (vertices) and
 #                  E is the number of prerequisites (edges).
