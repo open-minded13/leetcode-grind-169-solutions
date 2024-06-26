@@ -193,7 +193,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [x] ⭐️ [Medium 227. Basic Calculator](https://leetcode.com/problems/basic-calculator-ii/description/) | DS: Stack
 - [ ] [Medium 271. Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/description/)
 - [ ] [Medium 787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/description/)
-- [ ] [Medium 863. All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/description/).
+- [ ] [Medium 863. All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/description/)
 
 ## Part 13
 
