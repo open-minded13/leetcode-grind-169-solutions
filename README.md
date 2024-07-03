@@ -44,7 +44,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [x] [Easy 13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/)
 - [x] [Easy 14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)
 - [x] [Easy 67. Add Binary](https://leetcode.com/problems/add-binary/)
-- [ ] [Easy 100. Same Tree](https://leetcode.com/problems/same-tree/description/)
+- [x] [Easy 100. Same Tree](https://leetcode.com/problems/same-tree/description/)
 - [x] [Easy 104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) (picked in Blind 75) | Algo: Depth-First Search
 - [ ] [Easy 136. Single Number](https://leetcode.com/problems/single-number/description/)
 - [x] [Easy 169. Majority Element](https://leetcode.com/problems/majority-element/) Algo: Moore Voting Algo

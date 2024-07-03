@@ -1,6 +1,6 @@
 from typing import List
 
-# Date of Last Practice: Apr 28, 2024
+# Date of Last Practice: Apr 28, 2024 -> Jul 2, 2024
 #
 # Time Complexity: O(N*L), where N is the number of strings, and
 #                  L is the length of the first string in the list.
