@@ -1,9 +1,45 @@
 from typing import List
 
+# Date of Last Practice: Jul 3, 2024
+#
+# Time Complexity: O(1), since the board size is fixed (9x9) and we are
+#                  iterating over each cell once.
+#
+# Space Complexity: O(1), since we are using additional 27 sets and
+#                   each set can contain at most 9 elements.
+
 
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
-        
+        board_size = len(board)
+        row_sets = [set() for _ in range(board_size)]
+        col_sets = [set() for _ in range(board_size)]
+        box_sets = [set() for _ in range(board_size)]
+
+        for row, items in enumerate(board):
+            for col, number in enumerate(items):
+                number = board[row][col]
+                if number == ".":
+                    continue
+
+                # Check the current row
+                if number in row_sets[row]:
+                    return False
+                row_sets[row].add(number)
+
+                # Check the current column
+                if number in col_sets[col]:
+                    return False
+                col_sets[col].add(number)
+
+                # Check the current 3x3 box
+                box_index = row // 3 * 3 + col // 3
+                if number in box_sets[box_index]:
+                    return False
+                box_sets[box_index].add(number)
+
+        return True
+
 
 class ThreePassSolution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
