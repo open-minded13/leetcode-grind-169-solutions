@@ -1,7 +1,7 @@
 from typing import List
 
 
-# Date of Last Practice: Dec 17, 2023 -> Feb 7, 2024 -> June 6, 2024
+# Date of Last Practice: Dec 17, 2023 -> Feb 7, 2024 -> June 6, 2024 -> July 11, 2024
 #
 # Time Complexity: O(V+E), where V is the number of courses (vertices) and
 #                  E is the number of prerequisites (edges).
@@ -9,16 +9,14 @@ from typing import List
 #                  They need to traverse each course and its prerequisites,
 #                  leading to a time complexity of O(V+E),
 #
-# Space Complexity: O(V), where V is the number of rows and N is the number of columns.
+# Space Complexity: O(V+E), where V is the number of courses (vertices) and
+#                   E is the number of prerequisites (edges).
 #                   They both use additional data structures,
-#                   including an adjacency list using a dictionary,
-#                   a current_checking_path set to check the current path,
-#                   and a fully_checked_vertices to track visited courses,
-#                   which contributes to O(V) space complexity.
-#                   The recursive stack in Solution_1 can also add
-#                   up to O(V) in space complexity in the worst case.
-#                   A worst-case scenario will happen when prerequisites are arranged
-#                   in a linear chain: [ [1, 0], [2, 1], [3, 2], ..., [n-1, n-2] ].
+#                   including an adjacency list using a dictionary (V+E),
+#                   a current_checking_path set to check the current path (V),
+#                   and a fully_checked_vertices to track visited courses (V).
+#                   The recursive stack in Solution_1 can also add up to O(V)
+#                   in space complexity in the worst case.
 
 
 class Solution_1:
