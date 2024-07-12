@@ -46,7 +46,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [x] [Easy 67. Add Binary](https://leetcode.com/problems/add-binary/)
 - [x] [Easy 100. Same Tree](https://leetcode.com/problems/same-tree/description/)
 - [x] [Easy 104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) (picked in Blind 75) | Algo: Depth-First Search
-- [ ] [Easy 136. Single Number](https://leetcode.com/problems/single-number/description/)
+- [x] ⭐️ [Easy 136. Single Number](https://leetcode.com/problems/single-number/description/) | Algo: Bit Manipulation (XOR)
 - [x] [Easy 169. Majority Element](https://leetcode.com/problems/majority-element/) Algo: Moore Voting Algo
 - [ ] [Easy 191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/description/)
 - [x] [Easy 206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) (picked in Blind 75)
