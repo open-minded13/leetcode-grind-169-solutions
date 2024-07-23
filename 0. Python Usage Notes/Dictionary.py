@@ -15,7 +15,6 @@ my_dict["orange"] = 5
 # Another way to add and update values:
 my_dict = {"apple": 8, "banana": 8, "candy": 8}
 
-
 # Access values using keys
 print("apple is:", my_dict["apple"])
 
@@ -77,6 +76,8 @@ if "apple" not in my_dict:
 
 # Create an empty dictionary
 
+# Initialize a dictionary with keys from 'a' to 'z' and values set to 0 using a dictionary comprehension.
+
 # Add/Update key-value pairs to the dictionary
 
 # Another way to add and update values:
@@ -84,8 +85,10 @@ if "apple" not in my_dict:
 # Access values using keys
 
 # Use the get() method to access a value with a fallback
+print("apple is ")
 
 # Check if a key exists in the dictionary
+print("guava is ")
 
 # Iterate over the keys and values in the dictionary
 # In Python, the my_dict.items() method returns a view object that
