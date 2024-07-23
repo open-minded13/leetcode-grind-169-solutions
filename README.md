@@ -60,7 +60,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 
 ## Part 3
 
-- [ ] [Easy 9. Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)
+- [x] [Easy 9. Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)
 - [ ] [Easy 101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/)
 - [ ] [Easy 108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/)
 - [ ] [Easy 190. Reverse Bits](https://leetcode.com/problems/reverse-bits/description/)
