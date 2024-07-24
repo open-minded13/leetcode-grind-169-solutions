@@ -1,6 +1,6 @@
 # LeetCode Grind 169 Challenges with Solutions + Additional Exercises
 
-If you find this repository helpful, please give me a star to inspire me to keep it updated and benefit more people. Thank you! 🌟
+> If you find this repository helpful, please give me a star to inspire me to keep it updated and benefit more people. Thank you! 🌟
 
 [**Grind 169**](https://www.techinterviewhandbook.org/grind75?weeks=16&hours=10) is a dynamic list of top LeetCode interview questions created in 2023. It's up-to-date and well-chosen. We can personalize it according to our schedule, time constraints, and preferences. For the completed Grind 75 solutions, please refer to this [**repository**](https://github.com/open-thought13/leetcode-grind-75-solutions)
 
