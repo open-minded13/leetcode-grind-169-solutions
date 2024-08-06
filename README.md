@@ -185,7 +185,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [ ] [Medium 91. Decode Ways](https://leetcode.com/problems/decode-ways/description/)
 - [ ] [Medium 103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/)
 - [ ] [Medium 179. Largest Number](https://leetcode.com/problems/largest-number/description/)
-- [x] [Medium 215. Kth Largest Element in an Array](https://leetcode.com/problems/buildings-with-an-ocean-view/description/) | Algo: Quickselect (Fastest in Average Cases), DS: Heap (Good in All Cases)
+- [x] ⭐️ [Medium 215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | Algo: Quickselect (Fastest in Average Cases), DS: Heap (Good in All Cases)
 - [ ] [Medium 221. Maximal Square](https://leetcode.com/problems/maximal-square/description/)
 - [ ] [Medium 253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/description/)
 - [ ] [Medium 362. Design Hit Counter](https://leetcode.com/problems/design-hit-counter/description/)
