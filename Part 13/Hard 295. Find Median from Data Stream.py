@@ -1,22 +1,36 @@
-# Date of Last Practice: Mar 29, 2024 -> Apr 15, 2024
+# Date of Last Practice: Mar 29, 2024 -> Apr 15, 2024 -> Aug 7, 2024
 #
 # Time Complexity: O(log N), where N is the number of elements in the heap.
-#                  Adding a number to a heap has a time complexity of (log N).
-#                  Each call to addNum involves adding a number to a heap and
-#                  possibly moving the root element (index 0) between the heaps.
+#                  Adding a number to a heap has a time complexity of (log N). Each call
+#                  to addNum involves adding a number to a heap and possibly moving the
+#                  root element (index 0) between the heaps.
 #
 # Space Complexity: O(N), where N is the number of elements added to the MedianFinder.
-#                   This is because all elements are stored within the two heaps (low and high),
-#                   and the space required grows linearly with the number of elements added.
+#                   This is because all elements are stored within the two heaps (low
+#                   and high), and the space required grows linearly with the number of
+#                   elements added.
 #
 # Follow-Up Questions:
 #
-# 1) If all integer numbers from the stream are in the range [0, 100],
-#    how would you optimize your solution?
-#    A: The median can be found by iterating over the array and counting until reaching the middle.
-# 2) If 99% of all integer numbers from the stream are in the range [0, 100],
-#    how would you optimize your solution?
-#    A: Combine the frequency array approach for numbers within [0, 100] and use heaps for outliers.
+# 1) If all integer numbers from the stream are in the range [0, 100], how would you
+#    optimize your solution?
+#
+#    A: Use an array of size 101 to store the frequency of each number. The low and high
+#       heaps are not needed in this case. The median can be calculated by iterating
+#       over the frequency array and counting until reaching the middle. If the total
+#       number of elements is odd, the median is the number at the middle index. If the
+#       total number of elements is even, the median is the average of the two middle
+#       numbers.
+#
+#       The time complexity of this approach is O(1) for adding a number and O(101) for
+#       finding the median. The space complexity is O(101) for storing the frequency
+#       array.
+#
+# 2) If 99% of all integer numbers from the stream are in the range [0, 100], how would
+#    you optimize your solution?
+#
+#    A: Combine the frequency array approach for numbers within [0, 100] and use heaps
+#       for outliers.
 
 import heapq
 from heapq import heappush, heappop
@@ -52,8 +66,8 @@ class MedianFinder:
 
 class FirstMedianFinder:
     # We don't need extra counters for this problem.
-    # We will need a counter if you need to store another object (e.g., a tree node) with num.
-    # Check "Hard 23. Merge k Sorted Lists".
+    # We will need a counter if you need to store another object (e.g., a tree node)
+    # with num. Check "Hard 23. Merge k Sorted Lists".
     def __init__(self):
         self.max_heap = []
         self.min_heap = []
