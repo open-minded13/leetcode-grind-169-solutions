@@ -128,7 +128,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 
 - [x] 🌱 [Medium 31. Next Permutation](https://leetcode.com/problems/next-permutation/description/)
 - [x] [Medium 36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/) | DS: Hash Table
-- [ ] [Medium 134. Gas Station](https://leetcode.com/problems/gas-station/description/)
+- [x] ⭐️ [Medium 134. Gas Station](https://leetcode.com/problems/gas-station/description/) | Algo: Greedy Approach
 - [x] ⭐️ [Medium 146. LRU Cache](https://leetcode.com/problems/lru-cache/) | DS: Doubly Linked List
 - [ ] [Medium 198. House Robber](https://leetcode.com/problems/house-robber/description/)
 - [x] [Medium 230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) (picked in Blind 75) | Algo: Inorder Traversal
@@ -260,6 +260,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [x] [Medium 314. Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/) | Algo: Breadth-First Search (BFS), DS: Queue
 - [x] [Medium 339. Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum/description/)
 - [x] [Medium 426. Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/description/)
+- [ ] [Medium 457. Circular Array Loop](https://leetcode.com/problems/circular-array-loop/description/)
 - [x] [Medium 708. Insert into a Sorted Circular Linked List](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/)
 - [x] [Medium 763. Partition Labels](https://leetcode.com/problems/partition-labels/) | Algo: Two-Pointer Technique, Dynamic Sliding Window, Greedy Method
 - [x] [Medium 791. Custom Sort String](https://leetcode.com/problems/custom-sort-string/description/)
@@ -270,4 +271,5 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [x] [Medium 1570. Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/)
 - [x] [Medium 1650. Lowest Common Ancestor of a Binary Tree III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/) | Algo: Depth-First Search
 - [x] [Medium 1762. Buildings with an Ocean View](https://leetcode.com/problems/buildings-with-an-ocean-view/description/) | DS: Monotonic Stack
+- [ ] [Hard 354. Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/description/)
 - [x] ⭐️ [Hard 691. Stickers to Spell Word](https://leetcode.com/problems/stickers-to-spell-word/description/) | Algo: DFS; DS: DFS Function Memoization, Counter & Set Operations
