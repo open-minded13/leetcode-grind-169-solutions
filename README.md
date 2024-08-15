@@ -260,7 +260,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [x] [Medium 314. Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/) | Algo: Breadth-First Search (BFS), DS: Queue
 - [x] [Medium 339. Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum/description/)
 - [x] [Medium 426. Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/description/)
-- [ ] [Medium 457. Circular Array Loop](https://leetcode.com/problems/circular-array-loop/description/)
+- [x] ⭐️ [Medium 457. Circular Array Loop](https://leetcode.com/problems/circular-array-loop/description/) | Algo: Floyd's Cycle Finding (Two-Pointers Technique)
 - [x] [Medium 708. Insert into a Sorted Circular Linked List](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/)
 - [x] [Medium 763. Partition Labels](https://leetcode.com/problems/partition-labels/) | Algo: Two-Pointer Technique, Dynamic Sliding Window, Greedy Method
 - [x] [Medium 791. Custom Sort String](https://leetcode.com/problems/custom-sort-string/description/)
