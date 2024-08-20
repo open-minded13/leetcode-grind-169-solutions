@@ -63,8 +63,8 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [x] [Easy 234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/) | Algo: Two-Pointers Technique (Fast & Slow Pointers)
 - [x] [Easy 252. Meeting Rooms](https://leetcode.com/problems/meeting-rooms/description/)
 - [ ] [Easy 338. Counting Bits](https://leetcode.com/problems/counting-bits/description/)
-- [x] [Easy 543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) Algo: Depth-First Search; Another Takeaway: Mutable Objects (list, dict, set)
-- [ ] [Easy 844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/description/)
+- [x] [Easy 543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | Algo: Depth-First Search; DS: Python's Mutable Objects (list, dict, set)
+- [x] ⭐️ [Easy 844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/description/) | Algo: Two-Pointers Technique
 - [x] ⭐️ [Easy 876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
 
 ## Part 3
