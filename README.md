@@ -130,7 +130,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [x] [Medium 36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/) | DS: Hash Table
 - [x] ⭐️ [Medium 134. Gas Station](https://leetcode.com/problems/gas-station/description/) | Algo: Greedy Approach
 - [x] ⭐️ [Medium 146. LRU Cache](https://leetcode.com/problems/lru-cache/) | DS: Doubly Linked List
-- [ ] [Medium 198. House Robber](https://leetcode.com/problems/house-robber/description/)
+- [x] [Medium 198. House Robber](https://leetcode.com/problems/house-robber/description/) (picked in Blind 75) | Algo: Dynamic Programming
 - [x] [Medium 230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) (picked in Blind 75) | Algo: Inorder Traversal
 - [x] [Medium 310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) | Algo: Centroid Decomposition & Pruning; DS: Adjacency List
 - [x] [Medium 438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | Algo: Fixed-Size Sliding Window; DS: Hash Table
