@@ -55,16 +55,16 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [x] [Easy 67. Add Binary](https://leetcode.com/problems/add-binary/)
 - [x] [Easy 100. Same Tree](https://leetcode.com/problems/same-tree/description/)
 - [x] [Easy 104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) (picked in Blind 75) | Algo: Depth-First Search
-- [x] ⭐️ [Easy 136. Single Number](https://leetcode.com/problems/single-number/description/) | Algo: Bit Manipulation (XOR)
+- [x] 🌱 [Easy 136. Single Number](https://leetcode.com/problems/single-number/description/) | Algo: Bit Manipulation (XOR)
 - [x] [Easy 169. Majority Element](https://leetcode.com/problems/majority-element/) Algo: Moore Voting Algo
 - [x] [Easy 191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/description/) | Algo: Bit Manipulation
 - [x] [Easy 206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) (picked in Blind 75)
 - [x] [Easy 217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 - [x] [Easy 234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/) | Algo: Two-Pointers Technique (Fast & Slow Pointers)
 - [x] [Easy 252. Meeting Rooms](https://leetcode.com/problems/meeting-rooms/description/)
-- [x] ⭐️ [Easy 338. Counting Bits](https://leetcode.com/problems/counting-bits/description/) | Algo: Dynamic Programming (Bit Manipulation)
+- [x] 🌱 [Easy 338. Counting Bits](https://leetcode.com/problems/counting-bits/description/) | Algo: Dynamic Programming (Bit Manipulation)
 - [x] [Easy 543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | Algo: Depth-First Search; DS: Python's Mutable Objects (list, dict, set)
-- [x] ⭐️ [Easy 844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/description/) | Algo: Two-Pointers Technique
+- [x] 🌱 [Easy 844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/description/) | Algo: Two-Pointers Technique
 - [x] ⭐️ [Easy 876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
 
 ## Part 3
@@ -135,7 +135,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [x] [Medium 310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) | Algo: Centroid Decomposition & Pruning; DS: Adjacency List
 - [x] [Medium 438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | Algo: Fixed-Size Sliding Window; DS: Hash Table
 - [x] ⭐️ [Medium 621. Task Scheduler](https://leetcode.com/problems/task-scheduler/) | Algo: Greedy Approach; DS: Hash Table
-- [ ] [Medium 739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)
+- [x] [Medium 739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/) | Algo: Monotonic Stack
 
 ## Part 8
 
