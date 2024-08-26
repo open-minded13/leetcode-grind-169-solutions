@@ -140,7 +140,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 ## Part 8
 
 - [x] [Medium 19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) (picked in Blind 75) | Algo: Two-Pointers Technique (Fast & Slow Pointers)
-- [ ] [Medium 49. Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)
+- [x] [Medium 49. Group Anagrams](https://leetcode.com/problems/group-anagrams/description/) (picked in Blind 75) | DS: Hash Table
 - [ ] [Medium 152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/)
 - [ ] [Medium 211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/)
 - [ ] [Medium 261. Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/description/)
