@@ -3,10 +3,12 @@
 # Time Complexity: O(N), where N is the length of the input string s.
 #
 # Space Complexity: O(min(N, M)), where n is the length of the input string s,
-#                   and m is the size of the character set (number of distinct characters in the string).
-#                   In the worst case, when all characters are distinct,
-#                   the space complexity is O(n) because we store all characters in the recent_char_index.
-#                   However, when the string contains a limited character set, the space complexity is limited to O(m).
+#                   and m is the size of the character set (number of distinct
+#                   characters in the string). In the worst case, when all characters
+#                   are distinct, the space complexity is O(N) because we store all
+#                   characters in the recent_char_index. However, when the string
+#                   contains a limited character set, the space complexity is limited to
+#                   O(M).
 
 
 class Solution:
