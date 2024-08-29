@@ -276,4 +276,4 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 
 ### Microsoft
 
-- [ ] [Medium 912. Sort an Array](https://leetcode.com/problems/sort-an-array/description/)
+- [ ] [Medium 912. Sort an Array](https://leetcode.com/problems/sort-an-array/description/) | Algo: Quick Sort, Merge Sort, Heap Sort, Counting Sort
