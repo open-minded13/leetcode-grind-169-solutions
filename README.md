@@ -273,3 +273,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [x] [Medium 1762. Buildings with an Ocean View](https://leetcode.com/problems/buildings-with-an-ocean-view/description/) | DS: Monotonic Stack
 - [ ] [Hard 354. Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/description/)
 - [x] ⭐️ [Hard 691. Stickers to Spell Word](https://leetcode.com/problems/stickers-to-spell-word/description/) | Algo: DFS; DS: DFS Function Memoization, Counter & Set Operations
+
+### Microsoft
+
+- [ ] [Medium 912. Sort an Array](https://leetcode.com/problems/sort-an-array/description/)
