@@ -99,7 +99,7 @@ def demo_re_functions():
     # Returns: Iterator over match objects.
     print("re.finditer results:")
     for match in re.finditer(r"\d+", test_string):
-        print(" -", match.group())
+        print("Index:", match.start(), " Number:", match.group())
 
     # re.sub(pattern, repl, string, count=0, flags=0)
     # Purpose: Replaces occurrences of the pattern in the string with 'repl'.
