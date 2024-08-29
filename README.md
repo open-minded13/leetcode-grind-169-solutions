@@ -73,7 +73,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [x] [Easy 101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/) | Algo: Depth-First Search, Breadth-First Search
 - [x] [Easy 108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/) | Algo: Depth-First Search
 - [ ] [Easy 190. Reverse Bits](https://leetcode.com/problems/reverse-bits/description/)
-- [ ] [Easy 268. Missing Number](https://leetcode.com/problems/missing-number/description/)
+- [x] [Easy 268. Missing Number](https://leetcode.com/problems/missing-number/description/) (picked in Blind 75) | Algo: Bit Manipulation (XOR)
 - [ ] [Easy 283. Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)
 - [ ] [Easy 572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/description/)
 - [ ] [Easy 977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/description/)
@@ -142,7 +142,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [x] [Medium 19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) (picked in Blind 75) | Algo: Two-Pointers Technique (Fast & Slow Pointers)
 - [x] [Medium 49. Group Anagrams](https://leetcode.com/problems/group-anagrams/description/) (picked in Blind 75) | DS: Hash Table
 - [x] [Medium 152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/) (picked in Blind 75) | Algo: Dynamic Programming
-- [x] [Medium 211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/) (picked in Blind 75) | DS: Trie Tree
+- [x] 🌱 [Medium 211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/) (picked in Blind 75) | DS: Trie Tree
 - [ ] [Medium 261. Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/description/)
 - [ ] [Medium 287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)
 - [x] 🌱 [Medium 300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/) (picked in Blind 75) | Algo: Dynamic Programming & Binary Search
