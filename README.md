@@ -72,7 +72,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [x] [Easy 9. Palindrome Number](https://leetcode.com/problems/palindrome-number/description/) | Algo: Reverse Integer
 - [x] [Easy 101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/) | Algo: Depth-First Search, Breadth-First Search
 - [x] [Easy 108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/) | Algo: Depth-First Search
-- [ ] [Easy 190. Reverse Bits](https://leetcode.com/problems/reverse-bits/description/)
+- [x] [Easy 190. Reverse Bits](https://leetcode.com/problems/reverse-bits/description/) (picked in Blind 75) | Algo: Bit Manipulation
 - [x] [Easy 268. Missing Number](https://leetcode.com/problems/missing-number/description/) (picked in Blind 75) | Algo: Bit Manipulation (XOR)
 - [ ] [Easy 283. Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)
 - [ ] [Easy 572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/description/)
