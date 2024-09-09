@@ -1,6 +1,6 @@
 """Learn to use Lambda functions in Python by practicing with examples."""
 
-# Date of Last Practice: Mar 20, 2024 -> June 3, 2024
+# Date of Last Practice: Mar 20, 2024 -> June 3, 2024 -> Sep 9, 2024
 
 # Lambda Basics
 # A lambda function is a small anonymous function that can take any number of arguments,
@@ -68,26 +68,33 @@ print("Example 8: People sorted by age:", sorted_people)
 # [Practice Makes You a Pro!]
 
 # Example 1: Simple addition
+t, w = 3, 4
 
 # Working with Lists
 # Lambda functions are useful for operations like sorting, filtering, and transforming
 # elements in lists.
 
 # Example 2: Sorting a list of numbers
+nums = [6, 5, 4, 3, 2, 1]
 
 # Example 3: Sorting a list of strings by their last character
+string_list = ["zyx", "cba", "fed"]
 
 # Working with Dictionaries
 # You can iterate over dictionaries by keys, values, or both (items), and lambda
 # functions can be especially useful for these.
 
 # Example 4: Sorting dictionary keys by their corresponding values
+ages = {"Alice": 30, "Bob": 25, "Charlie": 35}
 
 # Example 5: Finding the dictionary key with the minimum value
+ages = {"Alice": 30, "Bob": 25, "Charlie": 35}
 
 # Example 6: Sorting dictionary items by value
+ages = {"Alice": 30, "Bob": 25, "Charlie": 35}
 
 # Example 7: Finding the key-value pair with the maximum value
+ages = {"Alice": 30, "Bob": 25, "Charlie": 35}
 
 
 # Custom Objects Example
@@ -98,7 +105,11 @@ class Cat:
         self.age = age
 
     def __repr__(self):
+        # Return a string representation of the object
+        # __repr__ is called by the repr() built-in function
+        # This function is triggered when you print the object
         return f"{self.name}: {self.age}"
 
 
 # Example 8: Sorting a list of Cat objects by age
+cats = [Cat("Alan", 9), Cat("Bob", 6), Cat("Claire", 3)]
