@@ -1,10 +1,11 @@
-# Date of Last Practice: July 1, 2023 -> Mar 20, 2024
+# Date of Last Practice: July 1, 2023 -> Mar 20, 2024 -> Sep 9, 2024
 
 
 # Create an empty dictionary
 my_dict = {}
 
-# Initialize a dictionary with keys from 'a' to 'z' and values set to 0 using a dictionary comprehension.
+# Initialize a dictionary with keys from 'a' to 'z' and values set to 0 using a
+# dictionary comprehension.
 letter_count = {chr(i): 0 for i in range(ord("a"), ord("z") + 1)}
 
 # Add/Update key-value pairs to the dictionary
@@ -12,8 +13,12 @@ my_dict["apple"] = 3
 my_dict["banana"] = 4
 my_dict["orange"] = 5
 
-# Another way to add and update values:
-my_dict = {"apple": 8, "banana": 8, "candy": 8}
+# If you want to update multiple key-value pairs at once, you can use the
+# update() method. The update() method takes a dictionary as an argument
+# and adds all the key-value pairs from the argument dictionary to the
+# original dictionary. If the key already exists in the original dictionary,
+# the value is updated; otherwise, a new key-value pair is added.
+my_dict.update({"apple": 8, "banana": 8, "candy": 8})
 
 # Access values using keys
 print("apple is:", my_dict["apple"])
@@ -59,7 +64,6 @@ for key in my_dict:
 values = list(my_dict.values())
 print("values:", values)
 
-
 # Remove key-value pairs:
 del my_dict["banana"]
 if "banana" not in my_dict:
@@ -76,19 +80,22 @@ if "apple" not in my_dict:
 
 # Create an empty dictionary
 
-# Initialize a dictionary with keys from 'a' to 'z' and values set to 0 using a dictionary comprehension.
+# Initialize a dictionary with keys from 'a' to 'z' and values set to 0 using a
+# dictionary comprehension.
 
 # Add/Update key-value pairs to the dictionary
 
-# Another way to add and update values:
+# If you want to update multiple key-value pairs at once, you can use the
+# update() method. The update() method takes a dictionary as an argument
+# and adds all the key-value pairs from the argument dictionary to the
+# original dictionary. If the key already exists in the original dictionary,
+# the value is updated; otherwise, a new key-value pair is added.
 
 # Access values using keys
 
 # Use the get() method to access a value with a fallback
-print("apple is ")
 
 # Check if a key exists in the dictionary
-print("guava is ")
 
 # Iterate over the keys and values in the dictionary
 # In Python, the my_dict.items() method returns a view object that
