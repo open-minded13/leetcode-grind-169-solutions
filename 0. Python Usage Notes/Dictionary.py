@@ -1,5 +1,6 @@
-# Date of Last Practice: July 1, 2023 -> Mar 20, 2024 -> Sep 9, 2024
+"""Learn to use dictionaries in Python by practicing with examples."""
 
+# Date of Last Practice: July 1, 2023 -> Mar 20, 2024 -> Sep 9, 2024
 
 # Create an empty dictionary
 my_dict = {}

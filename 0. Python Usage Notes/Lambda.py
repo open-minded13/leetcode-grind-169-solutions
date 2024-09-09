@@ -1,7 +1,11 @@
+"""Learn to use Lambda functions in Python by practicing with examples."""
+
 # Date of Last Practice: Mar 20, 2024 -> June 3, 2024
 
 # Lambda Basics
-# A lambda function is a small anonymous function that can take any number of arguments, but can only have one expression.
+# A lambda function is a small anonymous function that can take any number of arguments,
+# but can only have one expression.
+#
 # Syntax: lambda arguments: expression
 
 # Example 1: Simple addition
@@ -9,7 +13,8 @@ add = lambda x, y: x + y
 print("Example 1: 5 + 3 =", add(5, 3))
 
 # Working with Lists
-# Lambda functions are useful for operations like sorting, filtering, and transforming elements in lists.
+# Lambda functions are useful for operations like sorting, filtering, and transforming
+# elements in lists.
 
 # Example 2: Sorting a list of numbers
 numbers = [5, 2, 3, 1, 4]
@@ -22,7 +27,8 @@ sorted_words = sorted(words, key=lambda s: s[-1])
 print("Example 3: Words sorted by last character:", sorted_words)
 
 # Working with Dictionaries
-# You can iterate over dictionaries by keys, values, or both (items), and lambda functions can be especially useful for these.
+# You can iterate over dictionaries by keys, values, or both (items), and lambda
+# functions can be especially useful for these.
 
 # Example 4: Sorting dictionary keys by their corresponding values
 ages = {"Alice": 30, "Bob": 25, "Charlie": 35}
@@ -58,24 +64,22 @@ people = [Person("Alice", 30), Person("Bob", 25), Person("Charlie", 35)]
 sorted_people = sorted(people, key=lambda person: person.age)
 print("Example 8: People sorted by age:", sorted_people)
 
-# Conclusion
-# Lambda functions provide a powerful, inline method for defining custom sorting, filtering, and transformation logic in Python.
-# They shine in their ability to concisely express complex operations across different types of data structures.
-
 
 # [Practice Makes You a Pro!]
 
 # Example 1: Simple addition
 
 # Working with Lists
-# Lambda functions are useful for operations like sorting, filtering, and transforming elements in lists.
+# Lambda functions are useful for operations like sorting, filtering, and transforming
+# elements in lists.
 
 # Example 2: Sorting a list of numbers
 
 # Example 3: Sorting a list of strings by their last character
 
 # Working with Dictionaries
-# You can iterate over dictionaries by keys, values, or both (items), and lambda functions can be especially useful for these.
+# You can iterate over dictionaries by keys, values, or both (items), and lambda
+# functions can be especially useful for these.
 
 # Example 4: Sorting dictionary keys by their corresponding values
 
