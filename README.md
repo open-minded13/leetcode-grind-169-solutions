@@ -143,7 +143,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [x] [Medium 49. Group Anagrams](https://leetcode.com/problems/group-anagrams/description/) (picked in Blind 75) | DS: Hash Table
 - [x] [Medium 152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/) (picked in Blind 75) | Algo: Dynamic Programming
 - [x] 🌱 [Medium 211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/) (picked in Blind 75) | DS: Trie Tree
-- [ ] [Medium 261. Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/description/)
+- [x] [Medium 261. Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/description/) | Algo: Depth-First Search; DS: Union-Find (Disjoint Set)
 - [ ] [Medium 287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)
 - [x] 🌱 [Medium 300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/) (picked in Blind 75) | Algo: Dynamic Programming & Binary Search
 - [ ] [Medium 417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/description/)
