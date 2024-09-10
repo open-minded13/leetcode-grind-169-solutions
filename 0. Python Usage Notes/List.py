@@ -1,5 +1,7 @@
 # Date of Last Practice: Sep 2, 2023 -> Dec 22, 2023 -> Jan 1, 2024 -> Mar 20, 2024
 
+# [Step-by-Step Tutorial]
+
 # Create a list
 my_list = [1, 2, 3, 4, 5]
 

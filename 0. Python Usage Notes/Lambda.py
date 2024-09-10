@@ -2,7 +2,10 @@
 
 # Date of Last Practice: Mar 20, 2024 -> June 3, 2024 -> Sep 9, 2024
 
+# [Step-by-Step Tutorial]
+#
 # Lambda Basics
+#
 # A lambda function is a small anonymous function that can take any number of arguments,
 # but can only have one expression.
 #

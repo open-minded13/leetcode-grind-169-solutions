@@ -2,6 +2,8 @@
 
 # Date of Last Practice: July 1, 2023 -> Mar 20, 2024 -> Sep 9, 2024
 
+# [Step-by-Step Tutorial]
+
 # Create an empty dictionary
 my_dict = {}
 
