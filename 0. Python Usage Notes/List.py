@@ -1,4 +1,7 @@
+"""Learn to use lists in Python by practicing with examples."""
+
 # Date of Last Practice: Sep 2, 2023 -> Dec 22, 2023 -> Jan 1, 2024 -> Mar 20, 2024
+#                        -> Sep 10, 2024
 
 # [Step-by-Step Tutorial]
 
@@ -55,6 +58,7 @@ if 3 in my_list:
 # Search for an element's index in a list.
 # This function applies a linear search internally.
 # .index(value, start_index, stop_index (not included))
+# Return "ValueError: list.index(x): x not in list" if the value is not found.
 index = my_list.index(3)
 print(f"The value 3 is in index {index}")
 
@@ -134,3 +138,87 @@ combination.append(7)
 
 # See the effect on results
 print("Results after modifying combination:", results)  # Output: [[3, 5]]
+
+
+# [Practice Makes You a Pro!]
+
+# Create a list
+# TODO: Create a list named my_list with the values 1, 2, 3, 4, and 5.
+
+
+# Access elements in a list
+# TODO: Access the first and last elements of the list my_list.
+
+
+# Modify elements in a list
+# TODO: Change the first element of my_list to 6.
+
+
+# Add elements to a list
+# TODO: Append the value 8 to the list my_list.
+
+
+# Remove elements from a list
+# TODO: Remove the value 8 from the list my_list.
+
+
+# Iterate over a list
+# TODO: Iterate over the list my_list and print each element along with its index.
+
+
+# List comprehension
+# TODO: Create a list named squared_list that contains the squares of the elements
+#       in my_list.
+
+
+# List comprehension with if condition
+# TODO: Create a list named even_numbers that contains only the even numbers from
+#       my_list.
+
+
+# Sort a list
+# TODO: Sort the list my_list in ascending and descending order.
+
+
+# Check if an element exists in a list
+# TODO: Check if the value 3 exists in the list my_list.
+
+
+# Search for an element's index in a list
+# TODO: Find the index of the value 3 in the list my_list.
+
+
+# Combine two lists
+# TODO: Combine the lists list_1 = [1, 2, 3] and list_2 = ["A", "B", "C"] into a
+#       single list.
+
+
+# Initialize a 2-D matrix
+# TODO: Initialize a 2-D matrix named matrix_2D with the values
+#       [[1, 2, 3], [2, 3, 4], [3, 4, 5]].
+
+# Initialize another 2-D matrix
+# TODO: Initialize another 2-D matrix named matrix_2D with the values
+#       [[2, 1, 0], [2, 1, 0], [2, 1, 0]].
+
+# Incorrect 2-D matrix initialization
+# TODO: Initialize a 2-D matrix named matrix_2D with the values
+#       [[-1, -1, -1], [-1, -1, -1], [-1, -1, -1]] and change the value at index [0][1]
+#       to 10 to see the effect.
+
+
+# Create a 2-D matrix
+# TODO: Create a 2-D matrix named matrix with the values
+#       [[1, 2, 3], [4, 5, 6], [7, 8, 9]].
+
+# Access and update a 2-D matrix
+# TODO: Access and update the element at index [0][1] in the matrix.
+
+
+# Delete elements from a 2-D matrix
+# TODO: Delete the element at index [0][1] in the matrix.
+
+
+# Mutable Nature of Lists in Python
+# TODO: Demonstrate the mutable nature of lists in Python by modifying the original list
+#       and observing the changes in the copied list.

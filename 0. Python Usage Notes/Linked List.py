@@ -105,7 +105,7 @@ class LinkedList:
         self.head = previous
 
 
-# [Practice Makes You a Pro!] (class names and functions but not code)
+# [Practice Makes You a Pro!]
 
 # class Node:
 #     """Node for a Linked List."""
