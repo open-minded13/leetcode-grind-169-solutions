@@ -74,8 +74,8 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [x] [Easy 108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/) | Algo: Depth-First Search
 - [x] [Easy 190. Reverse Bits](https://leetcode.com/problems/reverse-bits/description/) (picked in Blind 75) | Algo: Bit Manipulation
 - [x] [Easy 268. Missing Number](https://leetcode.com/problems/missing-number/description/) (picked in Blind 75) | Algo: Bit Manipulation (XOR)
-- [ ] [Easy 283. Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)
-- [ ] [Easy 572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/description/)
+- [x] [Easy 283. Move Zeroes](https://leetcode.com/problems/move-zeroes/description/) | Algo: Two-Pointers Technique
+- [x] [Easy 572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/description/) (picked in Blind 75) | Algo: Depth-First Search
 - [ ] [Easy 977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/description/)
 - [x] [Medium 3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) (picked in Blind 75) | Algo: Sliding Window Technique
 - [x] [Medium 53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) (picked in Blind 75) | Algo: Kadane's Algo
