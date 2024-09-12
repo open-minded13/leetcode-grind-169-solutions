@@ -15,8 +15,8 @@ import bisect
 #                  inside the loop that iterates through the elements of the list.
 #
 # Space Complexity: O(N), where N is the number of elements in the given list.
-#                   The space complexity is due to the list `subsequence_tails`
-#                   that stores the smallest tail of increasing subsequences.
+#                   The space complexity is due to the list `subsequence_tails` that
+#                   stores the smallest tail of increasing subsequences.
 
 
 class Solution:
