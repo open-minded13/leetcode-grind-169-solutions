@@ -160,7 +160,41 @@ Removing virtualenv (/Users/username/.local/share/virtualenvs/MyProject-fPjN32K2
 -----------------------------------------------------------------
 ```
 
+#### Completely Remove a Virtual Environment Even if You Don’t Know Its Path
+
+In the root of the project where the `Pipfile` is located, you can run:
+
+```sh
+pipenv --venv
+```
+
+This will return the location of the virtual environment, such as:
+
+- **Linux/OS X**: `/Users/your_user_name/.local/share/virtualenvs/project_name-xxxx`
+  
+- **Windows**: `C:\Users\your_user_name\.virtualenvs\project_name-xxxx`
+
+To remove the environment:
+
+- **Bash/Zsh**:
+  
+  ```sh
+  rm -rf /Users/your_user_name/.local/share/virtualenvs/project_name-xxxx
+  ```
+
+- **Powershell**:
+
+  ```sh
+  Remove-Item -Recurse -Force 'C:\Users\your_user_name\.virtualenvs\project_name-xxxx'
+  ```
+
+- **Command Prompt**:
+
+  ```sh
+  rmdir /s "C:\Users\your_user_name\.virtualenvs\project_name-xxxx"
+  ```
+
 ### Other: Recreate the virtual environment with a different Python version
 
-* Check the tutorial: [YouTube](https://youtu.be/zDYL22QNiWk?t=1245)
-* Check the official website: [pipenv.pypa.io](https://pipenv.pypa.io/en/latest/)
+- Check the tutorial: [YouTube](https://youtu.be/zDYL22QNiWk?t=1245)
+- Check the official website: [pipenv.pypa.io](https://pipenv.pypa.io/en/latest/)

@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+requests = "*"
+feedparser = "*"
+beautifulsoup4 = "*"
+colorama = "*"
+openai = "*"
+python-dotenv = "*"
+fuzzywuzzy = "*"
+nltk = "*"
+plotly = "*"
+ipywidgets = "*"
+matplotlib = "*"
+jupyterlab = "*"
+python-pptx = "*"
+folium = "*"
+jupyter = "*"
+nbconvert = "*"
+
+[requires]
+python_version = "3.12"
