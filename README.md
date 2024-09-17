@@ -247,7 +247,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 
 ## Additional Exercises
 
-### Meta (Facebook)
+### LeetCode
 
 - [x] [Easy 346. Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)
 - [x] [Easy 408. Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/description/)
@@ -265,6 +265,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [x] [Medium 763. Partition Labels](https://leetcode.com/problems/partition-labels/) | Algo: Two-Pointer Technique, Dynamic Sliding Window, Greedy Method
 - [x] [Medium 791. Custom Sort String](https://leetcode.com/problems/custom-sort-string/description/)
 - [x] [Medium 841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/description/)
+- [ ] [Medium 912. Sort an Array](https://leetcode.com/problems/sort-an-array/description/) | Algo: Quick Sort, Merge Sort, Heap Sort, Counting Sort
 - [x] [Medium 921. Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/) | Algo: Greedy Method
 - [x] ⭐️ [Medium 1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/description/) | Algo: Binary Search
 - [x] [Medium 1249. Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/description/) | DS: Stack
@@ -274,6 +275,6 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [ ] [Hard 354. Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/description/)
 - [x] ⭐️ [Hard 691. Stickers to Spell Word](https://leetcode.com/problems/stickers-to-spell-word/description/) | Algo: DFS; DS: DFS Function Memoization, Counter & Set Operations
 
-### Microsoft
+### Techie Delight
 
-- [ ] [Medium 912. Sort an Array](https://leetcode.com/problems/sort-an-array/description/) | Algo: Quick Sort, Merge Sort, Heap Sort, Counting Sort
+- [x] [Medium 176. Sort K-Messed Array](https://www.techiedelight.com/?problem=SortKSortedArray) | DS: Min Heap (Priority Queue)
