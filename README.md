@@ -247,7 +247,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 
 ## Additional Exercises
 
-### Array
+### 1. Array
 
 - [x] [Easy 346. Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)
 - [x] ⭐️ [Medium 457. Circular Array Loop](https://leetcode.com/problems/circular-array-loop/description/) | Algo: Floyd's Cycle Finding (Two-Pointers Technique)
@@ -255,36 +255,36 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [x] [Medium 1570. Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/)
 - [x] [Medium 1762. Buildings with an Ocean View](https://leetcode.com/problems/buildings-with-an-ocean-view/description/) | DS: Monotonic Stack
   
-### Binary Search
+### 2. Binary Search
 
 - [x] ⭐️ [Medium 1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/description/) | Algo: Binary Search
 - [x] [Exponent: Medium - Nth Root of a Number](https://www.tryexponent.com/practice/prepare/root-of-number) | Algo: Binary Search
 
-### Dynamic Programming
+### 3. Dynamic Programming
 
 - [x] [Medium 583. Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/description/)| Algo: Longest Common Subsequence (LCS), Dynamic Programming
 - [ ] [Hard 354. Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/description/) | Algo: Longest Increasing Subsequence (LIS), Dynamic Programming
 - [x] ⭐️ [Hard 691. Stickers to Spell Word](https://leetcode.com/problems/stickers-to-spell-word/description/) | Algo: Depth-First Search; DS: DFS Function Memoization, Counter & Set Operations
 
-### Graph
+### 4. Graph
 
 - [x] [Medium 841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/description/) | Algo: Depth-First Search
 
-### Interval
+### 5. Interval
 
 - [ ] [TBD](link)
 
-### Linked List
+### 6. Linked List
 
 - [x] [Medium 2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) | Algo: Carry Management
 - [x] [Medium 138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/) | DS: Linked List
 - [x] [Medium 708. Insert into a Sorted Circular Linked List](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/)
 
-### Matrix
+### 7. Matrix
 
 - [ ] [TBD](link)
 
-### String
+### 8. String
 
 - [x] [Easy 408. Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/description/)
 - [x] [Easy 680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | Algo: Two-Pointer Technique
@@ -294,7 +294,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [x] [Medium 921. Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/) | Algo: Greedy Method
 - [x] [Medium 1249. Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/description/) | DS: Stack
 
-### Tree
+### 9. Tree
 
 - [x] [Easy 938. Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)
 - [x] [Medium 129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
@@ -304,10 +304,10 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [x] [Medium 426. Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/description/)
 - [x] [Medium 1650. Lowest Common Ancestor of a Binary Tree III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/) | Algo: Depth-First Search
 
-### Heap
+### 10. Heap
 
 - [x] [Exponent & Techie Delight: Medium - Sort K-Messed Array](https://www.techiedelight.com/?problem=SortKSortedArray) | DS: Min Heap (Priority Queue)
 
-### Bit Manipulation
+### 11. Bit Manipulation
 
 - [ ] [TBD](link)
