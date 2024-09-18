@@ -62,7 +62,8 @@ class QuickSelectSolution:
                 return nums[left]  # return that element
 
             # Choose a pivot randomly and swap it with the end.
-            # This step is not necessary but it may help to avoid worst-case time complexity.
+            # This step is not necessary but it may help to avoid worst-case time
+            # complexity.
             pivot_index = random.randint(left, right)
             nums[pivot_index], nums[right] = nums[right], nums[pivot_index]
 

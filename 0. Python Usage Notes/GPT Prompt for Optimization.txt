@@ -26,7 +26,7 @@ Step 4 - Please review my code to understand my programming style, where I stric
 
 <my programming style>
 """
-A module to search headlines by keyword from a CSV file containing news data.
+Search headlines by keyword from a CSV file containing news data.
 
 This module defines a function to search through headlines for keywords and return
 a list of headlines that match the keywords based on a high-rank similarity score.
@@ -161,19 +161,14 @@ if __name__ == "__main__":
 Be sure to use the right style for module, function, method docstrings and
 inline comments.
 
-<a id="s3.8.1-comments-in-doc-strings"></a>
-<a id="381-docstrings"></a>
-<a id="comments-in-doc-strings"></a>
-
-<a id="docstrings"></a>
 #### 3.8.1 Docstrings 
 
 Python uses *docstrings* to document code. A docstring is a string that is the
 first statement in a package, module, class or function. These strings can be
 extracted automatically through the `__doc__` member of the object and are used
-by `pydoc`.
-(Try running `pydoc` on your module to see how it looks.) Always use the
-three-double-quote `"""` format for docstrings (per
+by `pydoc`. Try running `pydoc` on your module to see how it looks.
+
+Always use the three-double-quote `"""` format for docstrings (per
 [PEP 257](https://peps.python.org/pep-0257/)). A docstring should be organized
 as a summary line (one physical line not exceeding 80 characters) terminated by
 a period, question mark, or exclamation point. When writing more (encouraged),
@@ -181,17 +176,13 @@ this must be followed by a blank line, followed by the rest of the docstring
 starting at the same cursor position as the first quote of the first line. There
 are more formatting guidelines for docstrings below.
 
-<a id="s3.8.2-comments-in-modules"></a>
-<a id="382-modules"></a>
-<a id="comments-in-modules"></a>
-
-<a id="module-docs"></a>
 #### 3.8.2 Modules 
 
 Every file should contain license boilerplate. Choose the appropriate boilerplate for the license used by the project (for example, Apache 2.0, BSD, LGPL, GPL).
 
 Files should start with a docstring describing the contents and usage of the
 module.
+
 ```python
 """A one-line summary of the module or program, terminated by a period.
 
@@ -207,10 +198,6 @@ Typical usage example:
 """
 ```
 
-
-<a id="s3.8.2.1-test-modules"></a>
-
-<a id="test-docs"></a>
 ##### 3.8.2.1 Test modules 
 
 Module-level docstrings for test files are not required. They should be included
@@ -234,11 +221,6 @@ Docstrings that do not provide any new information should not be used.
 """Tests for foo.bar."""
 ```
 
-<a id="s3.8.3-functions-and-methods"></a>
-<a id="383-functions-and-methods"></a>
-<a id="functions-and-methods"></a>
-
-<a id="function-docs"></a>
 #### 3.8.3 Functions and Methods 
 
 In this section, "function" means a method, function, generator, or property.
@@ -263,9 +245,8 @@ docstring.
 The docstring may be descriptive-style (`"""Fetches rows from a Bigtable."""`)
 or imperative-style (`"""Fetch rows from a Bigtable."""`), but the style should
 be consistent within a file. The docstring for a `@property` data descriptor
-should use the same style as the docstring for an attribute or a
-<a href="#doc-function-args">function argument</a> (`"""The Bigtable path."""`,
-rather than `"""Returns the Bigtable path."""`).
+should use the same style as the docstring for an attribute or a function argument 
+(`"""The Bigtable path."""`, rather than `"""Returns the Bigtable path."""`).
 
 Certain aspects of a function should be documented in special sections, listed
 below. Each section begins with a heading line, which ends with a colon. All
@@ -274,8 +255,7 @@ spaces (be consistent within a file). These sections can be omitted in cases
 where the function's name and signature are informative enough that it can be
 aptly described using a one-line docstring.
 
-<a id="doc-function-args"></a>
-[*Args:*](#doc-function-args)
+Args:
 :   List each parameter by name. A description should follow the name, and be
     separated by a colon followed by either a space or newline. If the
     description is too long to fit on a single 80-character line, use a hanging
@@ -285,8 +265,7 @@ aptly described using a one-line docstring.
     function accepts `*foo` (variable length argument lists) and/or `**bar`
     (arbitrary keyword arguments), they should be listed as `*foo` and `**bar`.
 
-<a id="doc-function-returns"></a>
-[*Returns:* (or *Yields:* for generators)](#doc-function-returns)
+Returns:
 :   Describe the semantics of the return value, including any type information
     that the type annotation does not provide. If the function only returns
     None, this section is not required. It may also be omitted if the docstring
@@ -303,8 +282,7 @@ aptly described using a one-line docstring.
     generator), the `Yields:` section should document the object returned by
     `next()`, instead of the generator object itself that the call evaluates to.
 
-<a id="doc-function-raises"></a>
-[*Raises:*](#doc-function-raises)
+Raises:
 :   List all exceptions that are relevant to the interface followed by a
     description. Use a similar exception name + colon + space or newline and
     hanging indent style as described in *Args:*. You should not document
@@ -388,15 +366,11 @@ def fetch_smalltable_rows(
     """
 ```
 
-<a id="s3.8.3.1-overridden-methods"></a>
-
-<a id="overridden-method-docs"></a>
 ##### 3.8.3.1 Overridden Methods 
 
 A method that overrides a method from a base class does not need a docstring if
-it is explicitly decorated with
-[`@override`](https://typing-extensions.readthedocs.io/en/latest/#override)
-(from `typing_extensions` or `typing` modules), unless the overriding method's
+it is explicitly decorated with `@override` (from `typing_extensions` or 
+`typing` modules), unless the overriding method's
 behavior materially refines the base method's contract, or details need to be
 provided (e.g., documenting additional side effects), in which case a docstring
 with at least those differences is required on the overriding method.
@@ -429,17 +403,12 @@ class Child(Parent):
     """See base class."""
 ```
 
-<a id="s3.8.4-comments-in-classes"></a>
-<a id="384-classes"></a>
-<a id="comments-in-classes"></a>
-
-<a id="class-docs"></a>
 #### 3.8.4 Classes 
 
 Classes should have a docstring below the class definition describing the class.
-Public attributes, excluding [properties](#properties), should be documented
+Public attributes, excluding properties, should be documented
 here in an `Attributes` section and follow the same formatting as a
-[function's `Args`](#doc-function-args) section.
+function's `Args` section.
 
 ```python
 class SampleClass:
@@ -497,12 +466,6 @@ class OutOfCheeseError(Exception):
   """Raised when no more cheese is available."""
 ```
 
-<a id="s3.8.5-block-and-inline-comments"></a>
-<a id="comments-in-block-and-inline"></a>
-<a id="s3.8.5-comments-in-block-and-inline"></a>
-<a id="385-block-and-inline-comments"></a>
-
-<a id="comments"></a>
 #### 3.8.5 Block and Inline Comments 
 
 The final place to have comments is in tricky parts of the code. If you're going
@@ -532,15 +495,6 @@ knows Python (though not what you're trying to do) better than you do.
 # the next element is i+1
 ```
 
-<!-- The next section is copied from the C++ style guide. -->
-
-<a id="s3.8.6-punctuation-spelling-and-grammar"></a>
-<a id="386-punctuation-spelling-and-grammar"></a>
-<a id="spelling"></a>
-<a id="punctuation"></a>
-<a id="grammar"></a>
-
-<a id="punctuation-spelling-grammar"></a>
 #### 3.8.6 Punctuation, Spelling, and Grammar 
 
 Pay attention to punctuation, spelling, and grammar; it is easier to read
@@ -560,4 +514,4 @@ punctuation, spelling, and grammar help with that goal.
 
 -
 
-Step 5 - Please use my coding style (i.e. Google Python Style Guide or PEP8) to produce the final complete Python code for this problem (using an object-oriented approach, i.e. classes). Include module (text at the beginning of the file), class, and function docstrings (including main()). Comments should be a maximum of 88 characters per line. Remain the class name `Solution` and the function name I sent you, while they don't follow the guidelines.
+Step 5 - Please use my coding style (i.e. Google Python Style Guide or PEP8) to produce the final complete Python code for this problem (using an object-oriented approach, i.e. classes). Use my preferences to include module (text at the beginning of the file), class, and function docstrings (including main()). The first line should be concise and straightforward. Don't mention any unneeded words like "Module to", "Class to", or "Function to". Comments should be a maximum of 88 characters per line. Remain the class name `Solution` and the function name I sent you, while they don't follow the guidelines.
