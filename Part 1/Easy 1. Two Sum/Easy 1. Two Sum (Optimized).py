@@ -1,4 +1,8 @@
-# Date of Last Practice: Jun 11, 2023 -> Jan 21, 2024
+"""Find two indices of numbers in a list that add up to a specific target."""
+
+from typing import List
+
+# Date of Last Practice: Jun 11, 2023 -> Jan 21, 2024 -> Sep 18, 2024
 #
 # Time complexity: O(N), where N is the length of nums.
 #                  Overall, the time complexity of this solution is O(n)
@@ -10,32 +14,62 @@
 
 
 class Solution:
-    def two_sum(self, nums, target):
-        # A new dictionary called 'mp' is created to store the key-value pairs.
+    """Provides a method to find two indices that sum up to a target value."""
+
+    def two_sum(self, nums: List[int], target: int) -> List[int]:
+        """Return indices of the two numbers such that they add up to target.
+
+        Args:
+            nums: A list of integers.
+            target: The target sum to find.
+
+        Returns:
+            A list containing the indices of the two numbers adding up to target.
+            If no such pair exists, returns [-1, -1].
+        """
+        # Initialize a dictionary to store number and its corresponding index
         mp = {}
-        for i in range(len(nums)):
-            # For each element, the code checks if 'target - nums[i]' exists as a key in the dictionary.
-            # If it doesn't exist, the current element 'nums[i]' is added as a key and its index 'i' is added
-            # as a value to the dictionary. This means that in future iterations,
-            # if another element is found that when added to the current element equals 'target',
-            # the index of the current element can be retrieved in constant time.
-            if target - nums[i] not in mp:
-                mp[nums[i]] = i
-            # If it does exist, this means that we have found the pair of indices that add up to the target value.
-            # So, the current index 'i' is returned along with
-            # the index of the existing key-value pair 'mp[target - nums[i]]'.
-            else:
-                return [mp[target - nums[i]], i]
+
+        # Iterate over the list of numbers
+        for i, num in enumerate(nums):
+            # Check if the complement exists in the dictionary
+            if target - num in mp:
+                # Return the indices of the two numbers
+                return [mp[target - num], i]
+            # Store the current number and its index in the dictionary
+            mp[num] = i
+
+        # Return [-1, -1] if no such pair is found
         return [-1, -1]
 
 
-nums = [4, 5, 2, 3]
-target = 9
+def main() -> None:
+    """Main function to demonstrate the usage of the Solution class."""
+    # Test cases
+    solution = Solution()
 
-solution = Solution()
-result = solution.two_sum(nums, target)
+    # Test case 1
+    nums1 = [2, 7, 11, 15]
+    target1 = 9
+    assert solution.two_sum(nums1, target1) == [0, 1], "Test case 1 failed"
 
-if result != [-1, -1]:
-    print(result[0], "and", result[1])
-else:
-    print("Not Found!")
+    # Test case 2
+    nums2 = [3, 2, 4]
+    target2 = 6
+    assert solution.two_sum(nums2, target2) == [1, 2], "Test case 2 failed"
+
+    # Test case 3
+    nums3 = [3, 3]
+    target3 = 6
+    assert solution.two_sum(nums3, target3) == [0, 1], "Test case 3 failed"
+
+    # Test case 4 (no solution)
+    nums4 = [1, 2, 3]
+    target4 = 7
+    assert solution.two_sum(nums4, target4) == [-1, -1], "Test case 4 failed"
+
+    print("All test cases passed!")
+
+
+if __name__ == "__main__":
+    main()
