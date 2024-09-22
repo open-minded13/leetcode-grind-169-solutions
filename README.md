@@ -85,7 +85,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 
 ## Part 4
 
-- [x] ⭐️ [Medium 15. 3Sum](https://leetcode.com/problems/3sum/) (picked in Blind 75) | Algo: Two-Pointer Technique and Dictionary (Hashmap); DS: Hashing
+- [x] ⭐️ [Medium 15. 3Sum](https://leetcode.com/problems/3sum/) (picked in Blind 75) | Algo: Two-Pointer Technique; DS: Hashing
 - [x] ⭐️ [Medium 98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) (picked in Blind 75) | Algo: Depth-First Search
 - [x] [Medium 102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) (picked in Blind 75) | Algo: Breadth-First Search
 - [x] [Medium 133. Clone Graph](https://leetcode.com/problems/clone-graph/) (picked in Blind 75) | Algo: Breadth-First Search
