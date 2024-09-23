@@ -252,6 +252,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [x] [Easy 346. Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)
 - [x] ⭐️ [Medium 457. Circular Array Loop](https://leetcode.com/problems/circular-array-loop/description/) | Algo: Floyd's Cycle Finding (Two-Pointers Technique)
 - [ ] [Medium 912. Sort an Array](https://leetcode.com/problems/sort-an-array/description/) | Algo: Quick Sort, Merge Sort, Heap Sort, Counting Sort
+- [x] [Medium 969. Pancake Sorting](https://leetcode.com/problems/pancake-sorting/description/) | Algo: Greedy Approach, Two-Pointer Technique
 - [x] [Medium 1570. Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/)
 - [x] [Medium 1762. Buildings with an Ocean View](https://leetcode.com/problems/buildings-with-an-ocean-view/description/) | DS: Monotonic Stack
 
