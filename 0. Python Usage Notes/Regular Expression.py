@@ -1,7 +1,7 @@
 """Regular Expression (re) in Python."""
 
 # Date of Last Practice: Dec 18, 2023 -> Dec 31, 2023 -> Jan 27, 2024
-#                        -> Mar 21, 2024 -> July 11, 2024
+#                        -> Mar 21, 2024 -> July 11, 2024 -> Sep 24, 2024
 
 import re
 
@@ -90,6 +90,7 @@ def demo_re_functions():
     # Purpose: Finds all non-overlapping occurrences of the pattern in the string.
     # Input: Pattern (regex), string to search in.
     # Returns: List of strings (all matches).
+    #          If no match is found, an empty list is returned.
     findall_result = re.findall(r"\d+", test_string)
     print("re.findall result:", findall_result)
 
@@ -109,7 +110,8 @@ def demo_re_functions():
     print("re.sub result:", sub_result)
 
     # re.subn(pattern, repl, string, count=0, flags=0)
-    # Purpose: Like re.sub, but returns a tuple of the modified string and the number of substitutions made.
+    # Purpose: Like re.sub, but returns a tuple of the modified string and the number of
+    #          substitutions made.
     # Input: Pattern (regex), replacement string, string to perform replacement in.
     # Returns: Tuple (modified string, number of substitutions made).
     subn_result = re.subn(r"\d+", "#", test_string)
@@ -136,7 +138,8 @@ def demo_re_functions():
     # re.match(pattern, string, flags=0)
     # Purpose: Matches the pattern at the BEGINNING of the string.
     # Input: Pattern (regex), string to match against.
-    # Returns: Match object if the beginning of the string matches the pattern; None otherwise.
+    # Returns: Match object if the beginning of the string matches the pattern;
+    #          None otherwise.
     match_result = re.match(r"Example", test_string)
     print("re.match result:", match_result.group() if match_result else "No match")
 
