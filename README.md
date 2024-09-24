@@ -283,7 +283,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 
 ### 7. Matrix
 
-- [ ] [TBD](link)
+- [x] [Easy 766. Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/description/)
 
 ### 8. String
 
