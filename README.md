@@ -250,6 +250,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 ### 1. Array
 
 - [x] [Easy 346. Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)
+- [x] [Exponent: Easy - Array Index & Element Equality](https://www.tryexponent.com/practice/prepare/array-index-and-element-equality) | Algo: Binary Search
 - [x] ⭐️ [Medium 457. Circular Array Loop](https://leetcode.com/problems/circular-array-loop/description/) | Algo: Floyd's Cycle Finding (Two-Pointers Technique)
 - [ ] [Medium 912. Sort an Array](https://leetcode.com/problems/sort-an-array/description/) | Algo: Quick Sort, Merge Sort, Heap Sort, Counting Sort
 - [x] [Medium 969. Pancake Sorting](https://leetcode.com/problems/pancake-sorting/description/) | Algo: Greedy Approach, Two-Pointer Technique
