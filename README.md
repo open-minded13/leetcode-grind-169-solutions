@@ -170,7 +170,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [ ] [Medium 22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)
 - [ ] [Medium 55. Jump Game](https://leetcode.com/problems/jump-game/description/)
 - [ ] [Medium 148. Sort List](https://leetcode.com/problems/sort-list/description/)
-- [ ] [Medium 285. Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/description/)
+- [x] 🌱 [Medium 285. Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/description/) | DS: Binary Search Tree
 - [ ] [Medium 323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/description/)
 - [x] ⭐️ [Medium 528. Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/description/) | Algo: Binary Search; DS: Prefix Sum Array
 - [ ] [Medium 560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/)
