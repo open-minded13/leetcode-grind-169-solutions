@@ -16,7 +16,7 @@ Recommended online textbook for quick review of concepts: [**Hello Algo**](https
 ## Project Timeline
 
 - **Start Date**: Apr 12, 2023
-- **Completion Date**: Ongoing 🧙🪄
+- **Completion Date**: Ongoing 🧙
 
 ## Comprehensive Solutions & Analysis
 
