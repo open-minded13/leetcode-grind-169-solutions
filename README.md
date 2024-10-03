@@ -256,6 +256,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [x] [Medium 969. Pancake Sorting](https://leetcode.com/problems/pancake-sorting/description/) | Algo: Greedy Approach, Two-Pointer Technique
 - [x] [Medium 1570. Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/)
 - [x] [Medium 1762. Buildings with an Ocean View](https://leetcode.com/problems/buildings-with-an-ocean-view/description/) | DS: Monotonic Stack
+- [x] [Exponent: Medium - Busiest Time in The Mall](https://www.tryexponent.com/practice/prepare/busiest-time-in-the-mall)
 
 ### 2. Binary Search
 
