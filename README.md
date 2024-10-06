@@ -116,7 +116,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [x] ⭐️ [Medium 8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | DS: Overflow Handling
 - [x] [Medium 11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) (picked in Blind 75)
 - [x] [Medium 17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
-- [x] [Medium 54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) (picked in Blind 75)
+- [x] ⭐️ [Medium 54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) (picked in Blind 75)
 - [x] [Medium 62. Unique Paths](https://leetcode.com/problems/unique-paths/) (picked in Blind 75) | Algo: Dynamic Programming
 - [x] [Medium 78. Subsets](https://leetcode.com/problems/subsets/)
 - [x] [Medium 79. Word Search](https://leetcode.com/problems/word-search/) (picked in Blind 75) | Algo: Depth-First Search
