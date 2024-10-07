@@ -275,7 +275,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 
 ### 5. Interval
 
-- [ ] [TBD](link)
+- [x] [Medium 1229. Meeting Scheduler](https://leetcode.com/problems/meeting-scheduler/description/) | Algo: Two-Pointer Technique
 
 ### 6. Linked List
 
