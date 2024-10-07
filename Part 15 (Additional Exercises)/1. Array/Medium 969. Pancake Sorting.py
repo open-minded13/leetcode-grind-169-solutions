@@ -10,6 +10,8 @@ The module includes the `Solution` class, which implements the pancake sorting
 algorithm using in-place flips, and a `test_pancake_sort` function containing 
 several test cases to validate the functionality.
 
+Tutorial: https://leetcode.com/problems/pancake-sorting/description/comments/1564957
+
 Typical usage example:
 
     solution = Solution()
@@ -21,7 +23,7 @@ Attributes:
     test_pancake_sort: A function containing test cases to validate the solution.
 """
 
-# Date of Last Practice: Sep 22, 2024
+# Date of Last Practice: Sep 22, 2024 -> Oct 6, 2024
 #
 # Time Complexity: O(N^2), where N is the length of the input list.
 #                  The maximum number of flips required to sort the list is N-1.
@@ -29,7 +31,8 @@ Attributes:
 #                  segment, which requires O(N) time. Hence, the overall time
 #                  complexity is O(N^2).
 #
-# Space Complexity: O(1), as we are not using any extra space.
+# Space Complexity: O(1), as we are not using any extra space except for the
+#                   output list to store the k-values of each flip.
 
 
 class Solution:
