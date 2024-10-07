@@ -275,7 +275,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 
 ### 5. Interval
 
-- [x] [Medium 1229. Meeting Scheduler](https://leetcode.com/problems/meeting-scheduler/description/) | Algo: Two-Pointer Technique
+- [x] 🌱 [Medium 1229. Meeting Scheduler](https://leetcode.com/problems/meeting-scheduler/description/) | Algo: Two-Pointer Technique
 
 ### 6. Linked List
 
@@ -299,6 +299,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [x] [Medium 921. Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/) | Algo: Greedy Method
 - [x] [Medium 1249. Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/description/) | DS: Stack
 - [x] [Exponent: Medium - Sentence Reverse](https://www.tryexponent.com/practice/prepare/sentence-reverse) | Algo: Two-Pointer Technique
+- [x] 🌱 [Exponent: Medium - Word Count Engine](https://www.tryexponent.com/practice/prepare/word-count-engine) | Algo: Regular Expressions, Hash Table
 
 ### 9. Tree
 

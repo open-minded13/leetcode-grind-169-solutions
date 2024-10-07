@@ -121,6 +121,8 @@ def demo_re_functions():
     # Purpose: Splits the string by occurrences of the pattern.
     # Input: Pattern (regex), string to split.
     # Returns: List of strings resulting from the split.
+    #          If no match is found, the original string is returned as a single
+    #          element list.
     split_result = re.split(r"\s+", test_string)
     print("re.split result:", split_result)
 
