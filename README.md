@@ -73,7 +73,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [x] [Easy 101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/) | Algo: Depth-First Search, Breadth-First Search
 - [x] [Easy 108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/) | Algo: Depth-First Search
 - [x] [Easy 190. Reverse Bits](https://leetcode.com/problems/reverse-bits/description/) (picked in Blind 75) | Algo: Bit Manipulation
-- [x] [Easy 268. Missing Number](https://leetcode.com/problems/missing-number/description/) (picked in Blind 75) | Algo: Bit Manipulation (XOR)
+- [x] 🌱 [Easy 268. Missing Number](https://leetcode.com/problems/missing-number/description/) (picked in Blind 75) | Algo: Bit Manipulation (XOR)
 - [x] [Easy 283. Move Zeroes](https://leetcode.com/problems/move-zeroes/description/) | Algo: Two-Pointers Technique
 - [x] [Easy 572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/description/) (picked in Blind 75) | Algo: Depth-First Search
 - [ ] [Easy 977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/description/)
@@ -252,6 +252,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [x] [Easy 346. Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)
 - [x] [Exponent: Easy - Array Index & Element Equality](https://www.tryexponent.com/practice/prepare/array-index-and-element-equality) | Algo: Binary Search
 - [x] [Exponent: Easy - Award Budget Cuts](https://www.tryexponent.com/practice/prepare/award-budget-cuts)
+- [x] [Exponent: Easy - Getting a Different Number](https://www.tryexponent.com/practice/prepare/getting-a-different-number) | Algo: Cyclic Swapping (Cycle Sort Variation)
 - [x] ⭐️ [Medium 457. Circular Array Loop](https://leetcode.com/problems/circular-array-loop/description/) | Algo: Floyd's Cycle Finding (Two-Pointers Technique)
 - [ ] [Medium 912. Sort an Array](https://leetcode.com/problems/sort-an-array/description/) | Algo: Quick Sort, Merge Sort, Heap Sort, Counting Sort
 - [x] [Medium 969. Pancake Sorting](https://leetcode.com/problems/pancake-sorting/description/) | Algo: Greedy Approach, Two-Pointer Technique
