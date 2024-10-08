@@ -31,52 +31,54 @@ from typing import List
 
 
 class Solution:
-    """Find the smallest nonnegative integer missing from the array."""
+    """Find the smallest positive integer missing from the array."""
 
-    def get_different_number(self, arr: List[int]) -> int:
+    def firstMissingPositive(self, nums: List[int]) -> int:
         """
-        Rearranges elements in arr to find the smallest missing integer.
+        Rearranges elements in nums to find the smallest missing positive integer.
 
         Args:
-            arr (List[int]): Array of unique nonnegative integers.
+            nums (List[int]): Array of unique nonnegative integers.
 
         Returns:
-            int: The smallest nonnegative integer not present in arr.
+            int: The smallest positive integer not present in nums.
         """
-        arr_length = len(arr)
+        n = len(nums)
 
         # Step 1 - Rearrange the array by placing each integer in its corresponding
-        #          index
-        for i in range(arr_length):
+        #          index if it's in the range 1 to n.
+        for i in range(n):
             # While the current number is within the valid range and not at its
             # correct position
-            while arr[i] < arr_length and arr[arr[i]] != arr[i]:
-                correct_position = arr[i]  # The correct position for the current value
+            while 1 <= nums[i] <= n and nums[nums[i] - 1] != nums[i]:
+                correct_position = (
+                    nums[i] - 1
+                )  # The correct position for the current value
                 # Swap the current value with the value at its correct position
-                arr[correct_position], arr[i] = arr[i], arr[correct_position]
+                nums[correct_position], nums[i] = nums[i], nums[correct_position]
 
-        # Step 2 - Scan the array to find the first index where index != value
-        for i in range(arr_length):
-            if i != arr[i]:
-                return i
+        # Step 2 - Scan the array to find the first index where index + 1 != value
+        for i in range(n):
+            if nums[i] != i + 1:
+                return i + 1
 
-        # Step 3 - If all indices match, return the next available integer (arr_length)
-        return arr_length
+        # Step 3 - If all indices match, return the next available integer (n + 1)
+        return n + 1
 
 
 def main():
-    """Test the get_different_number function with various test cases."""
+    """Test the firstMissingPositive function with various test cases."""
     solution = Solution()
 
     # Test cases
-    assert solution.get_different_number([0]) == 1
-    assert solution.get_different_number([0, 1, 2]) == 3
-    assert solution.get_different_number([1, 3, 0, 2]) == 4
-    assert solution.get_different_number([100000]) == 0
-    assert solution.get_different_number([1, 0, 3, 4, 5]) == 2
-    assert solution.get_different_number([0, 100000]) == 1
-    assert solution.get_different_number([0, 99999, 100000]) == 1
-    assert solution.get_different_number([0, 5, 4, 1, 3, 6, 2]) == 7
+    assert solution.firstMissingPositive([0]) == 1
+    assert solution.firstMissingPositive([0, 1, 2]) == 3
+    assert solution.firstMissingPositive([1, 3, 0, 2]) == 4
+    assert solution.firstMissingPositive([100000]) == 1
+    assert solution.firstMissingPositive([1, 0, 3, 4, 5]) == 2
+    assert solution.firstMissingPositive([0, 100000]) == 1
+    assert solution.firstMissingPositive([0, 99999, 100000]) == 1
+    assert solution.firstMissingPositive([0, 5, 4, 1, 3, 6, 2]) == 7
 
     print("All test cases passed!")
 

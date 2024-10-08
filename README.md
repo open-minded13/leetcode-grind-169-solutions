@@ -241,7 +241,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 
 - [ ] [Hard 25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/)
 - [ ] [Hard 37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/description/)
-- [ ] [Hard 41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)
+- [x] [Hard 41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/) | Algo: Cyclic Swapping (Cycle Sort Variation)
 - [ ] [Hard 51. N-Queens](https://leetcode.com/problems/n-queens/description/)
 - [ ] [Hard 632. Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/description/)
 
@@ -252,7 +252,6 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [x] [Easy 346. Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)
 - [x] [Exponent: Easy - Array Index & Element Equality](https://www.tryexponent.com/practice/prepare/array-index-and-element-equality) | Algo: Binary Search
 - [x] [Exponent: Easy - Award Budget Cuts](https://www.tryexponent.com/practice/prepare/award-budget-cuts)
-- [x] [Exponent: Easy - Getting a Different Number](https://www.tryexponent.com/practice/prepare/getting-a-different-number) | Algo: Cyclic Swapping (Cycle Sort Variation)
 - [x] ⭐️ [Medium 457. Circular Array Loop](https://leetcode.com/problems/circular-array-loop/description/) | Algo: Floyd's Cycle Finding (Two-Pointers Technique)
 - [ ] [Medium 912. Sort an Array](https://leetcode.com/problems/sort-an-array/description/) | Algo: Quick Sort, Merge Sort, Heap Sort, Counting Sort
 - [x] [Medium 969. Pancake Sorting](https://leetcode.com/problems/pancake-sorting/description/) | Algo: Greedy Approach, Two-Pointer Technique
