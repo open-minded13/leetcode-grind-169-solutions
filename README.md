@@ -267,6 +267,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 ### 3. Dynamic Programming
 
 - [x] [Medium 583. Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/description/)| Algo: Longest Common Subsequence (LCS), Dynamic Programming
+- [x] 🌱 [Hard 10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/description/)
 - [ ] [Hard 354. Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/description/) | Algo: Longest Increasing Subsequence (LIS), Dynamic Programming
 - [x] ⭐️ [Hard 691. Stickers to Spell Word](https://leetcode.com/problems/stickers-to-spell-word/description/) | Algo: Depth-First Search; DS: DFS Function Memoization, Counter & Set Operations
 
