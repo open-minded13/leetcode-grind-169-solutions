@@ -313,6 +313,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [x] [Medium 426. Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/description/)
 - [x] [Medium 1650. Lowest Common Ancestor of a Binary Tree III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/) | Algo: Depth-First Search
 - [x] [Exponent: Medium - Sales Path](https://www.tryexponent.com/practice/prepare/sales-path) | Algo: Depth-First Search
+- [x] [Exponent: Medium - Flatten a Dictionary](https://www.tryexponent.com/practice/prepare/flatten-a-dictionary) | Algo: Depth-First Search
 
 ### 10. Heap
 

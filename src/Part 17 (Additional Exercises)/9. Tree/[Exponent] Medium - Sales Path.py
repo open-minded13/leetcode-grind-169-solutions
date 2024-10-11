@@ -13,7 +13,7 @@ Attributes:
 
 from typing import List
 
-# Date of Last Practice: Oct 11, 2024
+# Date of Last Practice: Oct 10, 2024
 #
 # Time Complexity: O(N), where N is the number of nodes in the tree.
 #                  We visit each node once.
