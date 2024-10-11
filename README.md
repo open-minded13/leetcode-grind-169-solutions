@@ -2,7 +2,7 @@
 
 > If you find this repository helpful, please give me a star to inspire me to keep it updated and benefit more people. Thank you! 🌟
 
-[**Grind 169**](https://www.techinterviewhandbook.org/grind75?weeks=16&hours=10) is a dynamic list of top LeetCode interview questions created in 2023. It's up-to-date and well-chosen. We can personalize it according to our schedule, time constraints, and preferences. For the completed Grind 75 solutions, please refer to this [**repository**](https://github.com/open-thought13/leetcode-grind-75-solutions)
+[**Grind 169**](https://www.techinterviewhandbook.org/grind75?weeks=16&hours=10) is a dynamic list of top LeetCode interview questions created in 2023. It's up-to-date and well-chosen. We can personalize it according to our schedule, time constraints, and preferences. For the completed Grind 75 solutions, please refer to this [**repository**](https://github.com/open-minded13leetcode-grind-75-solutions).
 
 [**Blind 75**](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU), on the other hand, is a curated list of LeetCode questions created in 2018. We can practice these questions to save time in the job-finding process. Many other LeetCode problems are technical mixes of these individual problems. I practice Blind 75 in parallel on this [**repository**](https://github.com/open-minded13/leetcode-blind-75-solutions).
 
