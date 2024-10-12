@@ -35,7 +35,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [x] [Easy 21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) (picked in Blind 75)
 - [x] [Easy 70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) (picked in Blind 75) | Algo: Dynamic Programming
 - [x] [Easy 110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
-- [x] [Easy 121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) (picked in Blind 75)
+- [x] [Easy 121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) (picked in Blind 75) | 
 - [x] [Easy 125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) (picked in Blind 75) | Algo: Regular Expressions, Two-Pointers Technique, String Manipulation
 - [x] [Easy 141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) (picked in Blind 75) | Algo: Floyd's Cycle Finding (Two-Pointers Technique)
 - [x] [Easy 226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) (picked in Blind 75)
@@ -266,6 +266,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 
 ### 3. Dynamic Programming
 
+- [ ] [Medium 122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
 - [x] [Medium 583. Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/description/)| Algo: Longest Common Subsequence (LCS), Dynamic Programming
 - [x] 🌱 [Hard 10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/description/)
 - [ ] [Hard 354. Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/description/) | Algo: Longest Increasing Subsequence (LIS), Dynamic Programming
