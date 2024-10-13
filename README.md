@@ -252,6 +252,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [x] [Easy 346. Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)
 - [x] [Exponent: Easy - Array Index & Element Equality](https://www.tryexponent.com/practice/prepare/array-index-and-element-equality) | Algo: Binary Search
 - [x] [Exponent: Easy - Award Budget Cuts](https://www.tryexponent.com/practice/prepare/award-budget-cuts)
+- [x] [Medium 122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Algo: Greedy Approach
 - [x] ⭐️ [Medium 457. Circular Array Loop](https://leetcode.com/problems/circular-array-loop/description/) | Algo: Floyd's Cycle Finding (Two-Pointers Technique)
 - [ ] [Medium 912. Sort an Array](https://leetcode.com/problems/sort-an-array/description/) | Algo: Quick Sort, Merge Sort, Heap Sort, Counting Sort
 - [x] [Medium 969. Pancake Sorting](https://leetcode.com/problems/pancake-sorting/description/) | Algo: Greedy Approach, Two-Pointer Technique
@@ -266,7 +267,6 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 
 ### 3. Dynamic Programming
 
-- [ ] [Medium 122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
 - [x] [Medium 583. Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/description/)| Algo: Longest Common Subsequence (LCS), Dynamic Programming
 - [x] 🌱 [Hard 10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/description/)
 - [ ] [Hard 354. Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/description/) | Algo: Longest Increasing Subsequence (LIS), Dynamic Programming
