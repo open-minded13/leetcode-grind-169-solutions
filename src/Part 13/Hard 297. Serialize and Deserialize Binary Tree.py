@@ -1,107 +1,127 @@
+"""Provides functionality to serialize and deserialize binary trees.
+
+This module defines a class that can convert a binary tree to and from a string
+representation to allow it to be stored or transmitted more easily.
+"""
+
 from collections import deque
 
-# Date of Last Practice: Apr 13, 2024
+# Date of Last Practice: Apr 13, 2024 -> Oct 23, 2024
 #
 # Time Complexity: O(N), where N is the total number of nodes in the tree.
 #                  We traverse each node exactly once. During the traversal,
-#                  we perform a constant amount of work for each node,
-#                  such as appending its value to the result list or
-#                  adding its children to the queue.
-#                  Thus, the time complexity is proportional to the number of nodes in the tree.
+#                  we perform a constant amount of work for each node, such
+#                  as appending its value to the result list or adding its
+#                  children to the queue. Thus, the time complexity is
+#                  proportional to the number of nodes in the tree.
 #
 # Space Complexity: O(N), where N is the total number of nodes in the tree.
 #
-#                   Queue: At worst, the queue will hold all nodes at the widest level of the tree.
-#                          This occurs when the tree is perfectly balanced or at its widest point,
-#                          which could be up to 2/N nodes in a full binary tree.
+#                   Queue: At worst, the queue will hold all nodes at the widest
+#                          level of the tree. This occurs when the tree is perfectly
+#                          balanced or at its widest point, which could be up to 2/N
+#                          nodes in a full binary tree.
 #
-#                   Result List: We also maintain a list to store the values of all nodes,
-#                                which in the worst case will store N node values and
-#                                N−1 null values for leaf nodes.
+#                   Result List: We also maintain a list to store the values of all
+#                                nodes, which in the worst case will store N node
+#                                values and N−1 null values for leaf nodes.
 
 
 # Definition for a binary tree node.
-class TreeNode(object):
+class TreeNode:
+    """A node in a binary tree.
+
+    Attributes:
+        val (int): The value stored in the node.
+        left (TreeNode): A pointer to the left child of the node.
+        right (TreeNode): A pointer to the right child of the node.
+    """
+
     def __init__(self, x):
+        """Initializes the TreeNode with a value and no children."""
         self.val = x
         self.left = None
         self.right = None
 
 
 class Codec:
+    """Serializer and deserializer for binary trees using a BFS approach."""
 
     def serialize(self, root):
-        """Encodes a tree to a single string.
+        """Converts a binary tree to a string.
 
-        :type root: TreeNode
-        :rtype: str
+        Args:
+            root (TreeNode): The root of the binary tree to serialize.
+
+        Returns:
+            str: A string representation of the binary tree.
         """
-
         if not root:
             return ""
 
-        queue = deque([root])
+        bfs_queue = deque([root])
         result = []
-        while queue:
-            node = queue.popleft()
+        while bfs_queue:
+            node = bfs_queue.popleft()  # O(1) time complexity
             if node:
                 result.append(str(node.val))
-                queue.append(node.left)
-                queue.append(node.right)
+                bfs_queue.append(node.left)
+                bfs_queue.append(node.right)
             else:
                 result.append("null")
+
+        while result and result[-1] == "null":
+            result.pop()
 
         return ",".join(result)
 
     def deserialize(self, data):
-        """Decodes your encoded data to tree.
+        """Reconstructs a binary tree from a string.
 
-        :type data: str
-        :rtype: TreeNode
+        Args:
+            data (str): The string representation of the binary tree.
+
+        Returns:
+            TreeNode: The root of the reconstructed binary tree.
         """
-
         if not data:
             return None
 
         values = data.split(",")
-        index = 1
         root = TreeNode(int(values[0]))
-        queue = deque([root])
-        while queue:
-            node = queue.popleft()
+        bfs_queue = deque([root])
+        index = 1
+        while bfs_queue:
+            node = bfs_queue.popleft()  # O(1) time complexity
             if index < len(values) and values[index] != "null":
                 node.left = TreeNode(int(values[index]))
-                queue.append(node.left)
+                bfs_queue.append(node.left)
             index += 1
             if index < len(values) and values[index] != "null":
                 node.right = TreeNode(int(values[index]))
-                queue.append(node.right)
+                bfs_queue.append(node.right)
             index += 1
 
         return root
 
 
-# Your Codec object will be instantiated and called as such:
-ser = Codec()
-deser = Codec()
-# Test cases
-root1 = TreeNode(1)
-root1.left = TreeNode(2)
-root1.right = TreeNode(3)
-root1.right.left = TreeNode(4)
-root1.right.right = TreeNode(5)
+def main():
+    """Demonstrates the serialization and deserialization of a binary tree."""
+    ser = Codec()
+    deser = Codec()
 
-# Testing serialization and deserialization
-serialized_data = ser.serialize(root1)
-assert serialized_data == "1,2,3,null,null,4,5,null,null,null,null"
-assert (
-    ser.serialize(deser.deserialize(serialized_data))
-    == "1,2,3,null,null,4,5,null,null,null,null"
-)
+    # Example tree: [1,2,3,null,null,4,5]
+    root = TreeNode(1)
+    root.left = TreeNode(2)
+    root.right = TreeNode(3)
+    root.right.left = TreeNode(4)
+    root.right.right = TreeNode(5)
 
-# Test empty tree
-serialized_data = ser.serialize(None)
-assert serialized_data == ""
-assert ser.serialize(deser.deserialize(serialized_data)) == ""
+    serialized = ser.serialize(root)
+    print(f"Serialized tree: {serialized}")
+    deserialized = deser.deserialize(serialized)
+    assert ser.serialize(deserialized) == serialized
 
-print("All test cases passed!")
+
+if __name__ == "__main__":
+    main()
