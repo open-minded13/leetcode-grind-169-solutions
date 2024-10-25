@@ -11,7 +11,7 @@ correctness of both implementations.
 import sys
 from typing import List
 
-# Date of Last Practice: Aug 26, 2024
+# Date of Last Practice: Aug 26, 2024 -> Oct 25, 2024
 #
 # Time Complexity: O(N), where N is the number of elements in the given list.
 #                  The time complexity is due to the single pass through the list.
