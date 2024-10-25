@@ -1,5 +1,5 @@
 """
-Module to solve the 'Daily Temperatures' problem.
+Solve the 'Daily Temperatures' problem.
 
 This module contains the Solution class, which provides a method to calculate 
 the number of days one has to wait for a warmer temperature for each day in the 
