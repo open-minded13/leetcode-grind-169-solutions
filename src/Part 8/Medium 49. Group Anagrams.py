@@ -1,5 +1,5 @@
 """
-Module to group anagrams from a list of strings.
+Group anagrams from a list of strings.
 
 This module defines a `Solution` class with a method to group anagrams
 together. An anagram is a word formed by rearranging the letters of another word,
@@ -24,7 +24,7 @@ from typing import List, Dict
 
 class Solution:
     """
-    A class to group anagrams from a list of strings.
+    Group anagrams from a list of strings.
     """
 
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
@@ -56,7 +56,7 @@ class Solution:
 
 def main():
     """
-    Main function to demonstrate the usage of the Solution class with test cases.
+    Demonstrate the usage of the Solution class with test cases.
     """
     # Step 5 - Create an instance of the Solution class
     solution = Solution()
