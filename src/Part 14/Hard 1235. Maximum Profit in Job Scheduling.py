@@ -18,8 +18,8 @@ Note: srt = start time, end = end time, pro = profit, dp = dynamic programming t
           indicating the last job that ends before the current job starts.
       ^ = horizontal arrow showing the current position in the DP table.
 
-The final DP table helps compute the maximum possible profit by comparing the 
-options of including or excluding each job based on their end and start times.
+The final DP table helps compute the maximum possible profit by comparing the  options 
+of including or excluding each job based on their end and start times.
 """
 
 from typing import List
