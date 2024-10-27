@@ -294,6 +294,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 
 - [x] [Easy 408. Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/description/)
 - [x] [Easy 680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | Algo: Two-Pointer Technique
+- [x] [Easy 1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/description/) | Algo: Two-Pointer Technique
 - [x] ⭐️ [Medium 71. Simplify Path](https://leetcode.com/problems/simplify-path/description/)
 - [x] [Medium 151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/)
 - [x] [Medium 468. Validate IP Address](https://leetcode.com/problems/validate-ip-address/) | Algo: Regular Expressions
