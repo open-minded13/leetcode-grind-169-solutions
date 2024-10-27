@@ -60,7 +60,65 @@ This exercise is designed to give hands-on experience with various Git commands 
   git push -u origin main
   ```
 
-## 2. Feature Development and Branch Management
+## 2. Forking and Staying Up-to-Date with Upstream Changes
+
+This section covers working with forks and keeping your forked repository in sync with the original (upstream) repository.
+
+### Fork the Repository
+
+- **Task**: On GitHub, click the “Fork” button on the original repository to create your own copy under your GitHub account.
+
+### Clone Your Fork
+
+- **Task**: Clone your fork to your local machine.
+  
+  ```bash
+  git clone https://github.com/your-username/forked-repo.git
+  ```
+
+### Add the Upstream Remote
+
+- **Task**: Link your fork with the original repository to receive updates.
+  
+  ```bash
+  cd forked-repo
+  git remote add upstream https://github.com/original-author/original-repo.git
+  git remote -v
+  ```
+
+  You should see both `origin` (your fork) and `upstream` (the original repository) in the list.
+
+### Fetch and Merge Updates from Upstream
+
+- **Task**: Pull in updates from the original repository periodically to keep your fork up-to-date.
+  
+  ```bash
+  git fetch upstream
+  git checkout main
+  git merge upstream/main
+  ```
+
+### Push Updates to Your Fork
+
+- **Task**: After merging, push the updated main branch to your forked repository on GitHub.
+  
+  ```bash
+  git push origin main
+  ```
+
+### Summary of Commands
+
+```bash
+git clone https://github.com/your-username/forked-repo.git
+cd forked-repo
+git remote add upstream https://github.com/original-author/original-repo.git
+git fetch upstream
+git checkout main
+git merge upstream/main
+git push origin main
+```
+
+## 3. Feature Development and Branch Management
 
 ### Start a New Feature
 
@@ -77,7 +135,7 @@ This exercise is designed to give hands-on experience with various Git commands 
 
   Compare & Pull Requests on GitHub: Go to the repository you created on GitHub, where you will see the "Compare and Pull Requests" button at the top.
 
-## 3. Handling Team Changes and Conflicts
+## 4. Handling Team Changes and Conflicts
 
 ### Simulate a Team Change and Resolve Conflicts
 
@@ -124,7 +182,7 @@ This exercise is designed to give hands-on experience with various Git commands 
   git push -u origin main
   ```
 
-## 4. Reviewing Changes and Finalizing
+## 5. Reviewing Changes and Finalizing
 
 ### Review and Merge the Feature
 
