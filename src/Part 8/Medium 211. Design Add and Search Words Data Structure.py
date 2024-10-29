@@ -1,10 +1,10 @@
 """
 A module to implement two different WordDictionary data structures.
 
-This module defines two classes: WordDictionary (Trie-based) and 
-WordDictionarySet. Both classes support adding new words and finding if a string 
-matches any previously added string. The search function in both classes can handle 
-the dot '.' character as a wildcard that matches any letter.
+This module defines two classes: WordDictionary (Trie-based) and WordDictionarySet. 
+Both classes support adding new words and finding if a string matches any previously 
+added string. The search function in both classes can handle the dot '.' character 
+as a wildcard that matches any letter.
 
 Typical usage example:
 
@@ -29,31 +29,33 @@ Typical usage example:
     assert word_dict_set.search("b..") is True
 """
 
-# Date of Last Practice: Aug 28, 2024
+# Date of Last Practice: Aug 28, 2024 -> Oct 29, 2024
 #
-# Time Complexity: O(n) for addWord and O(26^d * n) for search, where n is the length of
-#                  the word and d is the number of dots in the word. The search function
+# Time Complexity: O(N) for addWord and O(26^D * N) for search, where N is the length of
+#                  the word and D is the number of dots in the word. The search function
 #                  calls a helper function search_trie, which recursively checks each
 #                  character in the word.
 #
 #                  Best Case: If the word is fully matched without encountering a "."
-#                             character, the time complexity is O(n), where n is the
+#                             character, the time complexity is O(N), where n is the
 #                             length of the word.
 #
 #                  Worst Case: If the word contains "." characters, the search might
-#                              need to explore multiple branches at each .. In the worst
-#                              case, if the word has d dots and each dot can lead to up
-#                              to 26 branches (a-z), the time complexity is O(26^d * n).
+#                              need to explore multiple branches at each ".". In the
+#                              worst case, if the word has D dots and each dot can lead
+#                              to up to 26 branches (a-z), the time complexity is
+#                              O(26^D * N).
+#
 #                              However, due to early stopping with any(), this is an
 #                              upper bound and often the actual time is much lower.
 #
-# Space Complexity: O(k * n), where k is the number of words added to the dictionary and
-#                   n is the average length of the words. The Trie structure stores the
+# Space Complexity: O(K * N), where K is the number of words added to the dictionary and
+#                   N is the average length of the words. The Trie structure stores the
 #                   words in a tree-like structure, which can have up to 26 children for
 #                   each node (one for each letter in the alphabet).
 #
-#                   The set-based approach has a space complexity of O(k * n * n), where
-#                   k is the number of words added to the dictionary and n is the
+#                   The set-based approach has a space complexity of O(K * N * N), where
+#                   K is the number of words added to the dictionary and N is the
 #                   average length of the words. The set stores all possible variants of
 #                   each word with a dot, which can be up to n variants for each word.
 
@@ -181,7 +183,8 @@ class WordDictionarySet:
 
 
 def main():
-    """Demonstrate the usage of both WordDictionary and WordDictionarySet classes with test cases."""
+    """Demonstrate the usage of both WordDictionary and WordDictionarySet classes with
+    test cases."""
 
     # Testing the optimized Trie-based approach (preferred)
     word_dict = WordDictionary()
