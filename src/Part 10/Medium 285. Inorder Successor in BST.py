@@ -31,7 +31,7 @@ Typical usage example:
 
 from typing import Optional
 
-# Date of Last Practice: Oct 1, 2024
+# Date of Last Practice: Oct 1, 2024 -> Oct 29, 2024
 #
 # Time Complexity: O(H), where H is the height of the binary search tree.
 #                  The time complexity is determined by the height of the tree.
