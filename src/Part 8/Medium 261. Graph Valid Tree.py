@@ -49,62 +49,6 @@ from collections import defaultdict
 # Space Complexity (DFS): O(V + E), as the graph is represented using an adjacency list.
 
 
-class UnionFind:
-    """
-    Union-Find data structure to manage connected components in a graph.
-    """
-
-    def __init__(self, size):
-        # Initialize the parent of each node to be itself
-        self.parent = list(range(size))
-        # Rank is used to keep the tree flat
-        self.rank = [1] * size
-
-    def find(self, node):
-        """
-        Find the representative (root) of the node's set, with path compression.
-
-        Args:
-            node (int): The node to find the root for.
-
-        Returns:
-            int: The root of the node.
-        """
-        if self.parent[node] != node:
-            # Path compression: make node point directly to the root
-            self.parent[node] = self.find(self.parent[node])
-        return self.parent[node]
-
-    def union(self, node1, node2):
-        """
-        Union the sets of two nodes.
-
-        Args:
-            node1 (int): The first node.
-            node2 (int): The second node.
-
-        Returns:
-            bool: True if the union was successful (nodes were not in the same set),
-                  False if a cycle was detected (nodes were already connected).
-        """
-        root1 = self.find(node1)
-        root2 = self.find(node2)
-
-        if root1 == root2:
-            return False  # Cycle detected, since both nodes have the same root
-
-        # Union by rank to keep tree flat
-        if self.rank[root1] > self.rank[root2]:
-            self.parent[root2] = root1
-        elif self.rank[root1] < self.rank[root2]:
-            self.parent[root1] = root2
-        else:
-            self.parent[root2] = root1
-            self.rank[root1] += 1
-
-        return True
-
-
 class Solution:
     """
     Determines whether a graph represented by nodes and edges forms a valid tree.
@@ -215,6 +159,65 @@ class Solution:
 
         if len(is_safe_node) != n:
             return False
+
+        return True
+
+
+class UnionFind:
+    """
+    Union-Find data structure to manage connected components in a graph.
+    """
+
+    def __init__(self, size):
+        # Initialize the parent of each node to be itself
+        self.parents = list(range(size))
+        # Rank is used to keep the tree flat
+        self.rank = [1] * size
+
+    def find(self, node):
+        """
+        Find the representative (root) of the node's set, with path compression.
+
+        Args:
+            node (int): The node to find the root for.
+
+        Returns:
+            int: The root of the node.
+        """
+        parent = self.parents[node]
+        if parent != node:
+            # Path compression: make node point directly to the root
+            self.parents[node] = self.find(parent)
+
+        # Return the root (oldest ancestor) of the current node.
+        return parent
+
+    def union(self, node1, node2):
+        """
+        Union the sets of two nodes.
+
+        Args:
+            node1 (int): The first node.
+            node2 (int): The second node.
+
+        Returns:
+            bool: True if the union was successful (nodes were not in the same set),
+                  False if a cycle was detected (nodes were already connected).
+        """
+        root1 = self.find(node1)
+        root2 = self.find(node2)
+
+        if root1 == root2:
+            return False  # Cycle detected, since both nodes have the same root
+
+        # Union by rank to keep tree flat
+        if self.rank[root1] > self.rank[root2]:
+            self.parents[root2] = root1
+        elif self.rank[root1] < self.rank[root2]:
+            self.parents[root1] = root2
+        else:
+            self.parents[root2] = root1
+            self.rank[root1] += 1
 
         return True
 
