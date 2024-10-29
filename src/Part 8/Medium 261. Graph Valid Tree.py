@@ -8,12 +8,15 @@ graph is acyclic and fully connected.
 
 from collections import defaultdict
 
-# Date of Last Practice: Sep 10, 2024
+# Date of Last Practice: Sep 10, 2024 -> Oct 29, 2024
 #
 # Time Complexity (Union-Find):
 #                 O(E * α(V)), where E is the number of edges and V is the number
 #                 of vertices. The Union-Find operations (Find and Union) are
 #                 almost constant time due to path compression and union by rank.
+#                 The α(V) is the inverse Ackermann function, which is a very slow
+#                 growing function. In practice, α(V) is almost constant for typical
+#                 values of V. Therefore, the time complexity is similar to O(E).
 #
 # Time Complexity (DFS):
 #                 O(V + E), where V is the number of vertices and E is the number of
@@ -105,6 +108,10 @@ class UnionFind:
 class Solution:
     """
     Determines whether a graph represented by nodes and edges forms a valid tree.
+
+    Union-Find is a way to group items together, where each item points to a leader
+    that represents its group. If we try to connect two items already in the same group,
+    it means there’s a loop or cycle, which shows that the graph isn’t a proper tree.
     """
 
     def validTree(self, n: int, edges: list[list[int]]) -> bool:
