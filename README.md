@@ -249,6 +249,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 
 ### 1. Array
 
+- [x] 🌱 [Easy 88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/) | Algo: Two-Pointer Technique
 - [x] [Easy 346. Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)
 - [x] [Exponent: Easy - Array Index & Element Equality](https://www.tryexponent.com/practice/prepare/array-index-and-element-equality) | Algo: Binary Search
 - [x] [Exponent: Easy - Award Budget Cuts](https://www.tryexponent.com/practice/prepare/award-budget-cuts)
