@@ -1,4 +1,6 @@
 """
+Solution to the Gas Station problem using a single-pass greedy algorithm.
+
 This module provides a solution to the Gas Station problem using a single-pass
 greedy algorithm. The solution determines the starting gas station index from 
 which a car can complete a circuit around the gas stations, or returns -1 if 
