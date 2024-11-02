@@ -17,7 +17,7 @@ from typing import List
 
 
 class Solution:
-    """Solution class to determine the starting gas station index."""
+    """Determine the starting gas station index."""
 
     def canCompleteCircuit(self, gas: List[int], cost: List[int]) -> int:
         """
@@ -64,7 +64,7 @@ class Solution:
 
 
 def main():
-    """Main function to demonstrate the Solution class with test cases."""
+    """Demonstrate the Solution class with test cases."""
     solution = Solution()
 
     # Test Case 1: Expected output is 3
