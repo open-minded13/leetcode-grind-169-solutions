@@ -1,19 +1,35 @@
 from typing import List
 
-# Date of Last Practice: Apr 29, 2024
+# Date of Last Practice: Apr 29, 2024 -> Nov 2, 2024
 #
 # Time Complexity: O(N), where N is the length of the nums list.
 #                  Since all these operations are linear and sequentially executed,
 #                  the total time complexity for finding the next permutation is O(N).
 #
-# Space Complexity: O(1), as we only use a constant amount of extra space
-#                   for a few indices and temporary variables required for swapping elements.
+# Space Complexity: O(1), as we only use a constant amount of extra space for a few
+#                   indices and temporary variables required for swapping elements.
 
 
 class Solution:
+    """
+    Modifies a list of numbers to the next permutation in lexicographical order.
+
+    This class implements an optimized approach that rearranges the numbers within the
+    list to form the next permutation that is lexicographically greater than the current
+    arrangement. If no greater permutation is possible, the list is rearranged into the
+    lowest possible order.
+    """
+
     def nextPermutation(self, nums: List[int]) -> None:
         """
-        Modifies nums in-place to the next lexicographical permutation.
+        Rearranges the list `nums` to its next permutation in-place.
+
+        Efficiently finds the next lexicographical permutation of the provided list of
+        numbers. If the list is sorted in descending order, it gets rearranged to
+        ascending order.
+
+        Args:
+            nums: A list of integers to find the next permutation of.
         """
         i = len(nums) - 2
 
@@ -36,8 +52,9 @@ class Solution:
         #         To reverse, the correct expression is
         #         nums[i + 1 :] = nums[i + 1 :][::-1] (NOT nums[i+1::-1] or nums[:i:-1])
         #
-        # NOTE: Strictly speaking, if we want to reverse in place without O(N) memory allocation,
-        #       we need to create a reverse_in_place function.
+        # NOTE: Strictly speaking, if we want to reverse in place without O(N) memory
+        #       allocation, we need to create a reverse_in_place function.
+        #
         #       start, end = index + 1, len(nums) - 1
         #       while start < end:
         #           nums[start], nums[end] = nums[end], nums[start]
@@ -47,9 +64,25 @@ class Solution:
 
 
 class FirstSolution:
+    """
+    Modifies a list of numbers to the next permutation in lexicographical order.
+
+    This class demonstrates an initial approach that contains inefficiencies and
+    unnecessary steps, which have been identified for learning purposes.
+    """
+
     def nextPermutation(self, nums: List[int]) -> None:
         """
-        Do not return anything, modify nums in-place instead.
+        Modifies nums in-place to the next lexicographical permutation.
+
+        This method uses a somewhat inefficient approach with unnecessary steps:
+        1. It maintains a list of visited elements to find the next greater element,
+           which is not required and adds complexity.
+        2. It sorts the sublist which can be replaced by a simple reversal since the
+           sublist is guaranteed to be in descending order when a swap is needed.
+
+        Args:
+            nums: A list of integers to find the next permutation of.
         """
         if len(nums) == 1:
             return
@@ -85,29 +118,24 @@ class FirstSolution:
         #          Instead, the reversed() can achieve the same result.
         # Note: Use `nums[:] = reversed(nums)` rather than `nums = reversed(nums)`
         nums.sort()
-        return
 
 
-# Test cases
-sol = Solution()
-test1 = [1, 2, 3]
-sol.nextPermutation(test1)
-assert test1 == [1, 3, 2], "Test case 1 failed"
+def main():
+    # Demonstrates the functionality using the Solution class.
+    solution = Solution()
+    test_cases = [
+        ([1, 2, 3], [1, 3, 2]),
+        ([3, 2, 1], [1, 2, 3]),
+        ([1, 1, 5], [1, 5, 1]),
+        ([1], [1]),
+        ([5, 4, 7, 5, 3, 2], [5, 5, 2, 3, 4, 7]),
+    ]
 
-test2 = [3, 2, 1]
-sol.nextPermutation(test2)
-assert test2 == [1, 2, 3], "Test case 2 failed"
+    for nums, expected in test_cases:
+        solution.nextPermutation(nums)
+        assert nums == expected, f"Test failed for input {nums}"
+        print(f"Next permutation: {nums}")
 
-test3 = [1, 1, 5]
-sol.nextPermutation(test3)
-assert test3 == [1, 5, 1], "Test case 3 failed"
 
-test4 = [1]
-sol.nextPermutation(test4)
-assert test4 == [1], "Test case 4 failed"
-
-test5 = [5, 4, 7, 5, 3, 2]
-sol.nextPermutation(test5)
-assert test5 == [5, 5, 2, 3, 4, 7], "Test case 5 failed"
-
-print("All tests passed.")
+if __name__ == "__main__":
+    main()

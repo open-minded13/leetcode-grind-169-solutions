@@ -126,7 +126,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 
 ## Part 7
 
-- [x] 🌱 [Medium 31. Next Permutation](https://leetcode.com/problems/next-permutation/description/)
+- [x] ⭐️⭐️ [Medium 31. Next Permutation](https://leetcode.com/problems/next-permutation/description/)
 - [x] [Medium 36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/) | DS: Hash Table
 - [x] ⭐️ [Medium 134. Gas Station](https://leetcode.com/problems/gas-station/description/) | Algo: Greedy Approach
 - [x] ⭐️ [Medium 146. LRU Cache](https://leetcode.com/problems/lru-cache/) | DS: Doubly Linked List
@@ -134,7 +134,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [x] [Medium 230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) (picked in Blind 75) | Algo: Inorder Traversal
 - [x] [Medium 310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) | Algo: Centroid Decomposition & Pruning; DS: Adjacency List
 - [x] [Medium 438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | Algo: Fixed-Size Sliding Window; DS: Hash Table
-- [x] ⭐️ [Medium 621. Task Scheduler](https://leetcode.com/problems/task-scheduler/) | Algo: Greedy Approach; DS: Hash Table
+- [x] ⭐️⭐️ [Medium 621. Task Scheduler](https://leetcode.com/problems/task-scheduler/) | Algo: Greedy Approach; DS: Hash Table
 - [x] [Medium 739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/) | Algo: Monotonic Stack
 
 ## Part 8
@@ -225,7 +225,7 @@ Feel free to delve into the solutions, run the test cases, and review the comple
 - [ ] [Hard 124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)
 - [ ] [Hard 329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/)
 - [ ] [Hard 895. Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/description/)
-- [x] ⭐️ [Hard 1235. Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) | Algo: Binary Search, Dynamic Programming
+- [x] ⭐️⭐️ [Hard 1235. Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) | Algo: Binary Search, Dynamic Programming
 
 ## Part 15
 
