@@ -9,7 +9,7 @@ no such station exists.
 
 from typing import List
 
-# Date of Last Practice: Aug 13, 2024
+# Date of Last Practice: Aug 13, 2024 -> Nov 2, 2024
 #
 # Time Complexity: O(N), where N is the length of the gas list.
 #
@@ -50,17 +50,19 @@ class Solution:
                 start = i + 1
                 tank = 0
 
-        # Global Guarantee: The single pass simultaneously tracks the total gas
-        # and total cost. If total_gas >= total_cost, there is enough fuel in
-        # the system to complete the entire circuit. Therefore, by the time the
-        # algorithm finishes this single pass, if a valid start index exists,
-        # the algorithm will have identified it.
+        # Global Guarantee: The single pass simultaneously tracks the total gas and
+        # total cost. If total_gas >= total_cost, there is enough fuel in the system
+        # to complete the entire circuit. Therefore, by the time the algorithm finishes
+        # this single pass, if a valid start index exists, the algorithm will have
+        # identified it.
         #
-        # If a lack of gas forces you to skip an earlier station, the new
-        # starting point must compensate for the previous deficiency when
-        # completing the cycle.
+        # If a lack of gas forces you to skip an earlier station, the new starting point
+        # must compensate for the previous deficiency when completing the cycle.
+        #
+        # Why we don't need to check start == len(gas) is because it means every
+        # starting point fails, which is already covered by sum(gas) < sum(cost).
 
-        return start if total_gas >= total_cost else -1
+        return -1 if total_gas < total_cost else start
 
 
 def main():
