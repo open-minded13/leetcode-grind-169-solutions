@@ -6,7 +6,7 @@
 
 [**Blind 75**](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU), on the other hand, is a curated list of LeetCode questions created in 2018. We can practice these questions to save time in the job-finding process. Many other LeetCode problems are technical mixes of these individual problems. I practice Blind 75 in parallel on this [**repository**](https://github.com/open-minded13/leetcode-blind-75-solutions).
 
-To achieve the review of the application of the following data structures and algorithms, except the theory of NP-Completeness.
+Goal: To achieve the review of the application of the following data structures and algorithms, except the theory of NP-Completeness.
 
 - Data Structures: (1) Arrays; (2) Stacks and Queues; (3) Linked Lists; (4) Trees; (5) Graphs; (6) Sorting; (7) Hashing.
 - Algorithms: (1) Greedy Method; (2) Divide and Conquer; (3) Tree Searching Strategies; (4) Prune and Search; (5) Dynamic Programming.
